@@ -1,0 +1,5310 @@
+lidar samples:  [132, 133, 0, 145, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 128, 144, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3, 23]
+lidar distances:  [145 144]
+min_dist:  144
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -20.040926538249412
+y:  142.59860189878614
+I think I am a tree:  [0, 1, 21, 22]
+lidar distances:  [132 133 128 128]
+min_dist:  128
+indx:  (array([21, 22]),)
+indx:  21
+angle:  -6
+x:  -13.379643298259655
+y:  127.29880260713898
+
+
+lidar samples:  [131, 133, 0, 145, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 128, 143, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3, 23]
+lidar distances:  [145 143]
+min_dist:  143
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -19.901753437289347
+y:  141.60833383004456
+I think I am a tree:  [0, 1, 21, 22]
+lidar distances:  [131 133 128 128]
+min_dist:  128
+indx:  (array([21, 22]),)
+indx:  21
+angle:  -6
+x:  -13.379643298259655
+y:  127.29880260713898
+
+
+lidar samples:  [131, 132, 0, 145, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 127, 127, 130, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [145]
+min_dist:  145
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  30.14719516857512
+y:  141.8314021064018
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [131 132 127 127 130]
+min_dist:  127
+indx:  (array([21, 22]),)
+indx:  21
+angle:  -6
+x:  -13.275114834992001
+y:  126.3042807117707
+
+
+lidar samples:  [130, 132, 0, 144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 127, 127, 129, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [144]
+min_dist:  144
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.93928347775736
+y:  140.853254505668
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [130 132 127 127 129]
+min_dist:  127
+indx:  (array([21, 22]),)
+indx:  21
+angle:  -6
+x:  -13.275114834992001
+y:  126.3042807117707
+
+
+lidar samples:  [130, 131, 0, 144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 127, 126, 128, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [144]
+min_dist:  144
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.93928347775736
+y:  140.853254505668
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [130 131 127 126 128]
+min_dist:  126
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -15.355537269048568
+y:  125.06081510680659
+
+
+lidar samples:  [129, 131, 0, 143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 126, 126, 127, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [143]
+min_dist:  143
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.7313717869396
+y:  139.8751069049342
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [129 131 126 126 127]
+min_dist:  126
+indx:  (array([21, 22]),)
+indx:  21
+angle:  -6
+x:  -13.170586371724347
+y:  125.30975881640244
+
+
+lidar samples:  [129, 131, 0, 143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 126, 125, 126, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [143]
+min_dist:  143
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.7313717869396
+y:  139.8751069049342
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [129 131 126 125 126]
+min_dist:  125
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -15.23366792564342
+y:  124.06826895516527
+
+
+lidar samples:  [129, 130, 0, 142, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 126, 125, 126, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [142]
+min_dist:  142
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.52346009612184
+y:  138.89695930420038
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [129 130 126 125 126]
+min_dist:  125
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -15.23366792564342
+y:  124.06826895516527
+
+
+lidar samples:  [128, 130, 0, 142, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 126, 124, 125, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [142]
+min_dist:  142
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.52346009612184
+y:  138.89695930420038
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [128 130 126 124 125]
+min_dist:  124
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -15.111798582238274
+y:  123.07572280352395
+
+
+lidar samples:  [128, 130, 0, 141, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 125, 124, 125, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [141]
+min_dist:  141
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.31554840530408
+y:  137.9188117034666
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [128 130 125 124 125]
+min_dist:  124
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -15.111798582238274
+y:  123.07572280352395
+
+
+lidar samples:  [127, 129, 0, 141, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 125, 124, 124, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [141]
+min_dist:  141
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.31554840530408
+y:  137.9188117034666
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [127 129 125 124 124]
+min_dist:  124
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -15.111798582238274
+y:  123.07572280352395
+
+
+lidar samples:  [127, 129, 0, 141, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 125, 123, 124, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [141]
+min_dist:  141
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.31554840530408
+y:  137.9188117034666
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [127 129 125 123 124]
+min_dist:  123
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -14.989929238833126
+y:  122.08317665188262
+
+
+lidar samples:  [126, 129, 0, 140, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 125, 123, 123, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [140]
+min_dist:  140
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.107636714486322
+y:  136.94066410273277
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [126 129 125 123 123]
+min_dist:  123
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -14.989929238833126
+y:  122.08317665188262
+
+
+lidar samples:  [126, 128, 0, 140, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 125, 122, 123, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [140]
+min_dist:  140
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  29.107636714486322
+y:  136.94066410273277
+I think I am a tree:  [0, 1, 21, 22, 23]
+lidar distances:  [126 128 125 122 123]
+min_dist:  122
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -14.868059895427978
+y:  121.09063050024129
+
+
+lidar samples:  [126, 128, 0, 139, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 122, 122, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [139]
+min_dist:  139
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  28.899725023668562
+y:  135.96251650199898
+I think I am a tree:  [0, 1, 22, 23]
+lidar distances:  [126 128 122 122]
+min_dist:  122
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -14.868059895427978
+y:  121.09063050024129
+
+
+lidar samples:  [125, 128, 0, 139, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 122, 122, 138, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3, 24]
+lidar distances:  [139 138]
+min_dist:  138
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -21.587956175551852
+y:  136.30099100212902
+I think I am a tree:  [0, 1, 22, 23]
+lidar distances:  [125 128 122 122]
+min_dist:  122
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -14.868059895427978
+y:  121.09063050024129
+
+
+lidar samples:  [125, 0, 0, 138, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 121, 137, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3, 24]
+lidar distances:  [138 137]
+min_dist:  137
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -21.43152171051162
+y:  135.31330266153387
+I think I am a tree:  [22, 23]
+lidar distances:  [121 121]
+min_dist:  121
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -14.746190552022831
+y:  120.09808434859997
+
+
+lidar samples:  [124, 0, 0, 138, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 121, 137, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3, 24]
+lidar distances:  [138 137]
+min_dist:  137
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -21.43152171051162
+y:  135.31330266153387
+I think I am a tree:  [22, 23]
+lidar distances:  [121 121]
+min_dist:  121
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -14.746190552022831
+y:  120.09808434859997
+
+
+lidar samples:  [124, 0, 0, 137, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 120, 122, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [137]
+min_dist:  137
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  28.483901642033047
+y:  134.00622130053137
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [122 121 120]
+min_dist:  120
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -16.700772115207844
+y:  118.83216824898844
+
+
+lidar samples:  [123, 0, 0, 137, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 120, 122, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [137]
+min_dist:  137
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  28.483901642033047
+y:  134.00622130053137
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [122 120 120]
+min_dist:  120
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -14.624321208617683
+y:  119.10553819695865
+
+
+lidar samples:  [123, 0, 0, 137, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 119, 121, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [137]
+min_dist:  137
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  28.483901642033047
+y:  134.00622130053137
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [121 120 119]
+min_dist:  119
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -16.561599014247776
+y:  117.84190018024687
+
+
+lidar samples:  [122, 0, 0, 136, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 119, 120, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [136]
+min_dist:  136
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  28.275989951215287
+y:  133.02807369979755
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [120 120 119]
+min_dist:  119
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -16.561599014247776
+y:  117.84190018024687
+
+
+lidar samples:  [122, 0, 0, 136, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 119, 119, 120, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [136]
+min_dist:  136
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  28.275989951215287
+y:  133.02807369979755
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [120 119 119]
+min_dist:  119
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -14.502451865212537
+y:  118.11299204531733
+
+
+lidar samples:  [122, 0, 0, 135, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 119, 118, 119, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [135]
+min_dist:  135
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  28.068078260397527
+y:  132.04992609906375
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [119 119 118]
+min_dist:  118
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -16.42242591328771
+y:  116.8516321115053
+
+
+lidar samples:  [121, 0, 0, 135, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 119, 118, 118, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [135]
+min_dist:  135
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  28.068078260397527
+y:  132.04992609906375
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [118 119 118]
+min_dist:  118
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -16.42242591328771
+y:  116.8516321115053
+
+
+lidar samples:  [121, 0, 0, 134, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 118, 117, 118, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [134]
+min_dist:  134
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  27.860166569579768
+y:  131.07177849832993
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [118 118 117]
+min_dist:  117
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -16.283252812327646
+y:  115.86136404276374
+
+
+lidar samples:  [120, 0, 0, 134, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 118, 117, 117, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [134]
+min_dist:  134
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  27.860166569579768
+y:  131.07177849832993
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [117 118 117]
+min_dist:  117
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -16.283252812327646
+y:  115.86136404276374
+
+
+lidar samples:  [120, 0, 0, 133, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 118, 116, 117, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [133]
+min_dist:  133
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  27.652254878762008
+y:  130.09363089759614
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [117 118 116]
+min_dist:  116
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -16.14407971136758
+y:  114.87109597402217
+
+
+lidar samples:  [119, 0, 0, 133, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 118, 116, 116, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [133]
+min_dist:  133
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  27.652254878762008
+y:  130.09363089759614
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [116 118 116]
+min_dist:  116
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -16.14407971136758
+y:  114.87109597402217
+
+
+lidar samples:  [119, 0, 0, 133, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 118, 116, 116, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [133]
+min_dist:  133
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  27.652254878762008
+y:  130.09363089759614
+I think I am a tree:  [24, 22, 23]
+lidar distances:  [116 118 116]
+min_dist:  116
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -16.14407971136758
+y:  114.87109597402217
+
+
+lidar samples:  [119, 0, 0, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 115, 131, 0, 0, 0, 0, 0]
+potential drop point indices:  [3, 25]
+lidar distances:  [132 131]
+min_dist:  131
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -22.74791127436787
+y:  129.00981564459926
+I think I am a tree:  [24, 23]
+lidar distances:  [115 115]
+min_dist:  115
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -16.004906610407517
+y:  113.8808279052806
+
+
+lidar samples:  [118, 0, 0, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 115, 131, 0, 0, 0, 0, 0]
+potential drop point indices:  [3, 25]
+lidar distances:  [132 131]
+min_dist:  131
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -22.74791127436787
+y:  129.00981564459926
+I think I am a tree:  [24, 23]
+lidar distances:  [115 115]
+min_dist:  115
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -16.004906610407517
+y:  113.8808279052806
+
+
+lidar samples:  [118, 0, 0, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 114, 116, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [131]
+min_dist:  131
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  27.23643149712649
+y:  128.13733569612853
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [114 116 115]
+min_dist:  114
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -17.83352901458631
+y:  112.5964708278457
+
+
+lidar samples:  [117, 0, 0, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 114, 114, 116, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [131]
+min_dist:  131
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  27.23643149712649
+y:  128.13733569612853
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [114 116 114]
+min_dist:  114
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -15.86573350944745
+y:  112.89055983653903
+
+
+lidar samples:  [117, 0, 0, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 114, 114, 115, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [130]
+min_dist:  130
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  27.02851980630873
+y:  127.15918809539473
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [114 115 114]
+min_dist:  114
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -15.86573350944745
+y:  112.89055983653903
+
+
+lidar samples:  [116, 0, 0, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 113, 113, 114, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [130]
+min_dist:  130
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  27.02851980630873
+y:  127.15918809539473
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [113 114 113]
+min_dist:  113
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -15.726560408487385
+y:  111.90029176779746
+
+
+lidar samples:  [116, 0, 0, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 113, 113, 114, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [129]
+min_dist:  129
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.82060811549097
+y:  126.18104049466092
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [113 114 113]
+min_dist:  113
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -15.726560408487385
+y:  111.90029176779746
+
+
+lidar samples:  [116, 0, 0, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 113, 112, 113, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [129]
+min_dist:  129
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.82060811549097
+y:  126.18104049466092
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [112 113 113]
+min_dist:  112
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -17.520660084505852
+y:  110.62109414665542
+
+
+lidar samples:  [115, 0, 0, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 113, 112, 113, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [129]
+min_dist:  129
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.82060811549097
+y:  126.18104049466092
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [112 113 113]
+min_dist:  112
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -17.520660084505852
+y:  110.62109414665542
+
+
+lidar samples:  [115, 0, 0, 128, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 112, 111, 112, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [128]
+min_dist:  128
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.61269642467321
+y:  125.20289289392711
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [111 112 112]
+min_dist:  111
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -17.36422561946562
+y:  109.6334058060603
+
+
+lidar samples:  [114, 0, 0, 128, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 112, 111, 111, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [128]
+min_dist:  128
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.61269642467321
+y:  125.20289289392711
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [111 111 112]
+min_dist:  111
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -17.36422561946562
+y:  109.6334058060603
+
+
+lidar samples:  [114, 0, 0, 127, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 112, 111, 111, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [127]
+min_dist:  127
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.40478473385545
+y:  124.22474529319331
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [111 111 112]
+min_dist:  111
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -17.36422561946562
+y:  109.6334058060603
+
+
+lidar samples:  [114, 0, 0, 127, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 111, 110, 110, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [127]
+min_dist:  127
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.40478473385545
+y:  124.22474529319331
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [110 110 111]
+min_dist:  110
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -17.20779115442539
+y:  108.64571746546515
+
+
+lidar samples:  [113, 0, 0, 126, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 111, 110, 110, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [126]
+min_dist:  126
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.19687304303769
+y:  123.2465976924595
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [110 110 111]
+min_dist:  110
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -17.20779115442539
+y:  108.64571746546515
+
+
+lidar samples:  [113, 0, 0, 126, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 111, 109, 109, 0, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [126]
+min_dist:  126
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.19687304303769
+y:  123.2465976924595
+I think I am a tree:  [24, 25, 23]
+lidar distances:  [109 109 111]
+min_dist:  109
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -17.05135668938516
+y:  107.65802912487001
+
+
+lidar samples:  [112, 0, 0, 126, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 111, 109, 109, 111, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [126]
+min_dist:  126
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  26.19687304303769
+y:  123.2465976924595
+I think I am a tree:  [24, 25, 26, 23]
+lidar distances:  [109 109 111 111]
+min_dist:  109
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -17.05135668938516
+y:  107.65802912487001
+
+
+lidar samples:  [112, 0, 0, 125, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 109, 108, 110, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [125]
+min_dist:  125
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  25.98896135221993
+y:  122.2684500917257
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [109 108 110]
+min_dist:  108
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -18.754003188028474
+y:  106.35923732531846
+
+
+lidar samples:  [112, 0, 0, 125, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108, 108, 109, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [125]
+min_dist:  125
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  25.98896135221993
+y:  122.2684500917257
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [108 108 109]
+min_dist:  108
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -16.894922224344928
+y:  106.67034078427488
+
+
+lidar samples:  [111, 0, 0, 124, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108, 108, 109, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [124]
+min_dist:  124
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  25.78104966140217
+y:  121.29030249099189
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [108 108 109]
+min_dist:  108
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -16.894922224344928
+y:  106.67034078427488
+
+
+lidar samples:  [111, 0, 0, 124, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 107, 107, 108, 0, 0, 0, 0]
+potential drop point indices:  [3]
+lidar distances:  [124]
+min_dist:  124
+indx:  (array([3]),)
+indx:  3
+angle:  12
+x:  25.78104966140217
+y:  121.29030249099189
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [107 107 108]
+min_dist:  107
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -16.738487759304697
+y:  105.68265244367974
+
+
+lidar samples:  [110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 107, 107, 108, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [107 107 108]
+min_dist:  107
+indx:  (array([24, 25]),)
+indx:  24
+angle:  -9
+x:  -16.738487759304697
+y:  105.68265244367974
+
+
+lidar samples:  [110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 107, 106, 107, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [107 106 107]
+min_dist:  106
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -18.406706832694613
+y:  104.38962181929405
+
+
+lidar samples:  [110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 106, 106, 106, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [106 106 106]
+min_dist:  106
+indx:  (array([24, 25, 26]),)
+indx:  24
+angle:  -9
+x:  -16.582053294264465
+y:  104.6949641030846
+
+
+lidar samples:  [109, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 106, 105, 106, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [106 105 106]
+min_dist:  105
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -18.233058655027683
+y:  103.40481406628184
+
+
+lidar samples:  [109, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 106, 105, 105, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [106 105 105]
+min_dist:  105
+indx:  (array([25, 26]),)
+indx:  25
+angle:  -10
+x:  -18.233058655027683
+y:  103.40481406628184
+
+
+lidar samples:  [108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 106, 105, 105, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [106 105 105]
+min_dist:  105
+indx:  (array([25, 26]),)
+indx:  25
+angle:  -10
+x:  -18.233058655027683
+y:  103.40481406628184
+
+
+lidar samples:  [108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 105, 104, 104, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [105 104 104]
+min_dist:  104
+indx:  (array([25, 26]),)
+indx:  25
+angle:  -10
+x:  -18.05941047736075
+y:  102.42000631326964
+
+
+lidar samples:  [108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 105, 104, 104, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26]
+lidar distances:  [105 104 104]
+min_dist:  104
+indx:  (array([25, 26]),)
+indx:  25
+angle:  -10
+x:  -18.05941047736075
+y:  102.42000631326964
+
+
+lidar samples:  [107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 105, 103, 103, 105, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26, 27]
+lidar distances:  [105 103 103 105]
+min_dist:  103
+indx:  (array([25, 26]),)
+indx:  25
+angle:  -10
+x:  -17.88576229969382
+y:  101.43519856025743
+
+
+lidar samples:  [107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 105, 103, 103, 104, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26, 27]
+lidar distances:  [105 103 103 104]
+min_dist:  103
+indx:  (array([25, 26]),)
+indx:  25
+angle:  -10
+x:  -17.88576229969382
+y:  101.43519856025743
+
+
+lidar samples:  [107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 105, 103, 102, 104, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [24, 25, 26, 27]
+lidar distances:  [105 103 102 104]
+min_dist:  102
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -19.46251752840757
+y:  100.12597271166173
+
+
+lidar samples:  [106, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 102, 102, 103, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27]
+lidar distances:  [102 102 103]
+min_dist:  102
+indx:  (array([25, 26]),)
+indx:  25
+angle:  -10
+x:  -17.71211412202689
+y:  100.45039080724521
+
+
+lidar samples:  [106, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 102, 102, 103, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27]
+lidar distances:  [102 102 103]
+min_dist:  102
+indx:  (array([25, 26]),)
+indx:  25
+angle:  -10
+x:  -17.71211412202689
+y:  100.45039080724521
+
+
+lidar samples:  [106, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 102, 101, 102, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27]
+lidar distances:  [102 101 102]
+min_dist:  101
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -19.271708533031024
+y:  99.14434552821406
+
+
+lidar samples:  [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 101, 101, 101, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27]
+lidar distances:  [101 101 101]
+min_dist:  101
+indx:  (array([25, 26, 27]),)
+indx:  25
+angle:  -10
+x:  -17.53846594435996
+y:  99.46558305423301
+
+
+lidar samples:  [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 101, 100, 101, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27]
+lidar distances:  [101 100 101]
+min_dist:  100
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -19.08089953765448
+y:  98.1627183447664
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 101, 100, 100, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27]
+lidar distances:  [101 100 100]
+min_dist:  100
+indx:  (array([26, 27]),)
+indx:  26
+angle:  -11
+x:  -19.08089953765448
+y:  98.1627183447664
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 99, 100, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27]
+lidar distances:  [100  99 100]
+min_dist:  99
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -18.890090542277935
+y:  97.18109116131873
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 99, 99, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27]
+lidar distances:  [100  99  99]
+min_dist:  99
+indx:  (array([26, 27]),)
+indx:  26
+angle:  -11
+x:  -18.890090542277935
+y:  97.18109116131873
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 99, 99, 101, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27, 28]
+lidar distances:  [100  99  99 101]
+min_dist:  99
+indx:  (array([26, 27]),)
+indx:  26
+angle:  -11
+x:  -18.890090542277935
+y:  97.18109116131873
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 98, 98, 100, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27, 28]
+lidar distances:  [100  98  98 100]
+min_dist:  98
+indx:  (array([26, 27]),)
+indx:  26
+angle:  -11
+x:  -18.69928154690139
+y:  96.19946397787108
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 99, 98, 98, 99, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27, 28]
+lidar distances:  [99 98 98 99]
+min_dist:  98
+indx:  (array([26, 27]),)
+indx:  26
+angle:  -11
+x:  -18.69928154690139
+y:  96.19946397787108
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 99, 98, 97, 99, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27, 28]
+lidar distances:  [99 98 97 99]
+min_dist:  97
+indx:  (array([27]),)
+indx:  27
+angle:  -12
+x:  -20.167434009322655
+y:  94.88031727117915
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 99, 97, 97, 98, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [25, 26, 27, 28]
+lidar distances:  [99 97 97 98]
+min_dist:  97
+indx:  (array([26, 27]),)
+indx:  26
+angle:  -11
+x:  -18.508472551524846
+y:  95.2178367944234
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 97, 97, 97, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [26, 27, 28]
+lidar distances:  [97 97 97]
+min_dist:  97
+indx:  (array([26, 27, 28]),)
+indx:  26
+angle:  -11
+x:  -18.508472551524846
+y:  95.2178367944234
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 97, 96, 97, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [26, 27, 28]
+lidar distances:  [97 96 97]
+min_dist:  96
+indx:  (array([27]),)
+indx:  27
+angle:  -12
+x:  -19.959522318504895
+y:  93.90216967044535
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 96, 96, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [26, 27, 28]
+lidar distances:  [96 96 96]
+min_dist:  96
+indx:  (array([26, 27, 28]),)
+indx:  26
+angle:  -11
+x:  -18.3176635561483
+y:  94.23620961097575
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 95, 96, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [26, 27, 28]
+lidar distances:  [96 95 96]
+min_dist:  95
+indx:  (array([27]),)
+indx:  27
+angle:  -12
+x:  -19.75161062768714
+y:  92.92402206971154
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 95, 95, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [26, 27, 28]
+lidar distances:  [96 95 95]
+min_dist:  95
+indx:  (array([27, 28]),)
+indx:  27
+angle:  -12
+x:  -19.75161062768714
+y:  92.92402206971154
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 95, 94, 95, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [26, 27, 28]
+lidar distances:  [95 94 95]
+min_dist:  94
+indx:  (array([27]),)
+indx:  27
+angle:  -12
+x:  -19.54369893686938
+y:  91.94587446897773
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 95, 94, 94, 96, 0]
+potential drop point indices:  []
+I think I am a tree:  [26, 27, 28, 29]
+lidar distances:  [95 94 94 96]
+min_dist:  94
+indx:  (array([27, 28]),)
+indx:  27
+angle:  -12
+x:  -19.54369893686938
+y:  91.94587446897773
+
+
+lidar samples:  [0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 95, 94, 94, 95, 0]
+potential drop point indices:  [2]
+lidar distances:  [110]
+min_dist:  110
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  24.74461597782514
+y:  107.18070712637588
+I think I am a tree:  [26, 27, 28, 29]
+lidar distances:  [95 94 94 95]
+min_dist:  94
+indx:  (array([27, 28]),)
+indx:  27
+angle:  -12
+x:  -19.54369893686938
+y:  91.94587446897773
+
+
+lidar samples:  [0, 0, 109, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 95, 93, 93, 95, 0]
+potential drop point indices:  [2]
+lidar distances:  [109]
+min_dist:  109
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  24.519664923481276
+y:  106.20633706159065
+I think I am a tree:  [26, 27, 28, 29]
+lidar distances:  [95 93 93 95]
+min_dist:  93
+indx:  (array([27, 28]),)
+indx:  27
+angle:  -12
+x:  -19.33578724605162
+y:  90.96772686824393
+
+
+lidar samples:  [0, 0, 109, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 94, 93, 93, 94, 0]
+potential drop point indices:  [2]
+lidar distances:  [109]
+min_dist:  109
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  24.519664923481276
+y:  106.20633706159065
+I think I am a tree:  [26, 27, 28, 29]
+lidar distances:  [94 93 93 94]
+min_dist:  93
+indx:  (array([27, 28]),)
+indx:  27
+angle:  -12
+x:  -19.33578724605162
+y:  90.96772686824393
+
+
+lidar samples:  [0, 0, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 94, 93, 92, 93, 0]
+potential drop point indices:  [2]
+lidar distances:  [108]
+min_dist:  108
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  24.29471386913741
+y:  105.23196699680541
+I think I am a tree:  [26, 27, 28, 29]
+lidar distances:  [94 93 92 93]
+min_dist:  92
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -20.695496999635584
+y:  89.64204596024165
+
+
+lidar samples:  [0, 0, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 94, 92, 92, 93, 0]
+potential drop point indices:  [2]
+lidar distances:  [108]
+min_dist:  108
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  24.29471386913741
+y:  105.23196699680541
+I think I am a tree:  [26, 27, 28, 29]
+lidar distances:  [94 92 92 93]
+min_dist:  92
+indx:  (array([27, 28]),)
+indx:  27
+angle:  -12
+x:  -19.12787555523386
+y:  89.98957926751012
+
+
+lidar samples:  [0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 92, 92, 92, 0]
+potential drop point indices:  [2]
+lidar distances:  [107]
+min_dist:  107
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  24.069762814793545
+y:  104.25759693202018
+I think I am a tree:  [27, 28, 29]
+lidar distances:  [92 92 92]
+min_dist:  92
+indx:  (array([27, 28, 29]),)
+indx:  27
+angle:  -12
+x:  -19.12787555523386
+y:  89.98957926751012
+
+
+lidar samples:  [0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 92, 91, 92, 0]
+potential drop point indices:  [2]
+lidar distances:  [107]
+min_dist:  107
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  24.069762814793545
+y:  104.25759693202018
+I think I am a tree:  [27, 28, 29]
+lidar distances:  [92 91 92]
+min_dist:  91
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -20.47054594529172
+y:  88.66767589545641
+
+
+lidar samples:  [0, 0, 106, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 91, 91, 91, 0]
+potential drop point indices:  [2]
+lidar distances:  [106]
+min_dist:  106
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  23.84481176044968
+y:  103.28322686723493
+I think I am a tree:  [27, 28, 29]
+lidar distances:  [91 91 91]
+min_dist:  91
+indx:  (array([27, 28, 29]),)
+indx:  27
+angle:  -12
+x:  -18.9199638644161
+y:  89.01143166677632
+
+
+lidar samples:  [0, 0, 106, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 91, 90, 91, 0]
+potential drop point indices:  [2]
+lidar distances:  [106]
+min_dist:  106
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  23.84481176044968
+y:  103.28322686723493
+I think I am a tree:  [27, 28, 29]
+lidar distances:  [91 90 91]
+min_dist:  90
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -20.245594890947853
+y:  87.69330583067118
+
+
+lidar samples:  [0, 0, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 91, 90, 90, 92]
+potential drop point indices:  [2]
+lidar distances:  [105]
+min_dist:  105
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  23.61986070610582
+y:  102.3088568024497
+I think I am a tree:  [27, 28, 29, 30]
+lidar distances:  [91 90 90 92]
+min_dist:  90
+indx:  (array([28, 29]),)
+indx:  28
+angle:  -13
+x:  -20.245594890947853
+y:  87.69330583067118
+
+
+lidar samples:  [0, 0, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 90, 89, 90, 91]
+potential drop point indices:  [2]
+lidar distances:  [105]
+min_dist:  105
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  23.61986070610582
+y:  102.3088568024497
+I think I am a tree:  [27, 28, 29, 30]
+lidar distances:  [90 89 90 91]
+min_dist:  89
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -20.020643836603988
+y:  86.71893576588593
+
+
+lidar samples:  [0, 0, 104, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 90, 89, 89, 90]
+potential drop point indices:  [2]
+lidar distances:  [104]
+min_dist:  104
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  23.394909651761953
+y:  101.33448673766446
+I think I am a tree:  [27, 28, 29, 30]
+lidar distances:  [90 89 89 90]
+min_dist:  89
+indx:  (array([28, 29]),)
+indx:  28
+angle:  -13
+x:  -20.020643836603988
+y:  86.71893576588593
+
+
+lidar samples:  [0, 0, 104, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 90, 89, 89, 90]
+potential drop point indices:  [2]
+lidar distances:  [104]
+min_dist:  104
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  23.394909651761953
+y:  101.33448673766446
+I think I am a tree:  [27, 28, 29, 30]
+lidar distances:  [90 89 89 90]
+min_dist:  89
+indx:  (array([28, 29]),)
+indx:  28
+angle:  -13
+x:  -20.020643836603988
+y:  86.71893576588593
+
+
+lidar samples:  [0, 0, 104, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 90, 88, 88, 89]
+potential drop point indices:  [2]
+lidar distances:  [104]
+min_dist:  104
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  23.394909651761953
+y:  101.33448673766446
+I think I am a tree:  [27, 28, 29, 30]
+lidar distances:  [90 88 88 89]
+min_dist:  88
+indx:  (array([28, 29]),)
+indx:  28
+angle:  -13
+x:  -19.795692782260122
+y:  85.7445657011007
+
+
+lidar samples:  [0, 0, 103, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 89, 88, 88, 88]
+potential drop point indices:  [2]
+lidar distances:  [103]
+min_dist:  103
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  23.169958597418088
+y:  100.36011667287923
+I think I am a tree:  [27, 28, 29, 30]
+lidar distances:  [89 88 88 88]
+min_dist:  88
+indx:  (array([28, 29, 30]),)
+indx:  28
+angle:  -13
+x:  -19.795692782260122
+y:  85.7445657011007
+
+
+lidar samples:  [0, 0, 103, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 89, 88, 87, 88]
+potential drop point indices:  [2]
+lidar distances:  [103]
+min_dist:  103
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  23.169958597418088
+y:  100.36011667287923
+I think I am a tree:  [27, 28, 29, 30]
+lidar distances:  [89 88 87 88]
+min_dist:  87
+indx:  (array([29]),)
+indx:  29
+angle:  -14
+x:  -21.047204917171097
+y:  84.41572818601169
+
+
+lidar samples:  [0, 0, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 87, 87]
+potential drop point indices:  [2]
+lidar distances:  [102]
+min_dist:  102
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  22.945007543074222
+y:  99.385746608094
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [87 87 87]
+min_dist:  87
+indx:  (array([28, 29, 30]),)
+indx:  28
+angle:  -13
+x:  -19.570741727916257
+y:  84.77019563631546
+
+
+lidar samples:  [0, 0, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 86, 87]
+potential drop point indices:  [2]
+lidar distances:  [102]
+min_dist:  102
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  22.945007543074222
+y:  99.385746608094
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [87 86 87]
+min_dist:  86
+indx:  (array([29]),)
+indx:  29
+angle:  -14
+x:  -20.80528302157143
+y:  83.4454324597357
+
+
+lidar samples:  [0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 87, 86, 86]
+potential drop point indices:  [2, 20]
+lidar distances:  [101 255]
+min_dist:  101
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  22.720056488730357
+y:  98.41137654330876
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [87 86 86]
+min_dist:  86
+indx:  (array([29, 30]),)
+indx:  29
+angle:  -14
+x:  -20.80528302157143
+y:  83.4454324597357
+
+
+lidar samples:  [0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 86, 86, 86]
+potential drop point indices:  [2, 20]
+lidar distances:  [101 255]
+min_dist:  101
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  22.720056488730357
+y:  98.41137654330876
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [86 86 86]
+min_dist:  86
+indx:  (array([28, 29, 30]),)
+indx:  28
+angle:  -13
+x:  -19.34579067357239
+y:  83.79582557153023
+
+
+lidar samples:  [0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 254, 0, 0, 0, 0, 0, 0, 0, 86, 85, 85]
+potential drop point indices:  [2, 20]
+lidar distances:  [101 254]
+min_dist:  101
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  22.720056488730357
+y:  98.41137654330876
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [86 85 85]
+min_dist:  85
+indx:  (array([29, 30]),)
+indx:  29
+angle:  -14
+x:  -20.563361125971763
+y:  82.4751367334597
+
+
+lidar samples:  [0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 254, 0, 0, 0, 0, 0, 0, 0, 86, 85, 85]
+potential drop point indices:  [2, 20]
+lidar distances:  [100 254]
+min_dist:  100
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  22.495105434386492
+y:  97.43700647852353
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [86 85 85]
+min_dist:  85
+indx:  (array([29, 30]),)
+indx:  29
+angle:  -14
+x:  -20.563361125971763
+y:  82.4751367334597
+
+
+lidar samples:  [0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 0, 0, 0, 0, 0, 0, 0, 86, 85, 85]
+potential drop point indices:  [2, 20]
+lidar distances:  [100 253]
+min_dist:  100
+indx:  (array([2]),)
+indx:  2
+angle:  13
+x:  22.495105434386492
+y:  97.43700647852353
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [86 85 85]
+min_dist:  85
+indx:  (array([29, 30]),)
+indx:  29
+angle:  -14
+x:  -20.563361125971763
+y:  82.4751367334597
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 0, 0, 0, 0, 0, 0, 0, 85, 84, 84]
+potential drop point indices:  [20]
+lidar distances:  [253]
+min_dist:  253
+indx:  (array([20]),)
+indx:  20
+angle:  -5
+x:  -22.050402915157534
+y:  252.03725861721162
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [85 84 84]
+min_dist:  84
+indx:  (array([29, 30]),)
+indx:  29
+angle:  -14
+x:  -20.321439230372093
+y:  81.5048410071837
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 84, 84]
+potential drop point indices:  []
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [85 84 84]
+min_dist:  84
+indx:  (array([29, 30]),)
+indx:  29
+angle:  -14
+x:  -20.321439230372093
+y:  81.5048410071837
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 84, 83]
+potential drop point indices:  []
+I think I am a tree:  [28, 29, 30]
+lidar distances:  [85 84 83]
+min_dist:  83
+indx:  (array([30]),)
+indx:  30
+angle:  -15
+x:  -21.48198074350923
+y:  80.17184358199268
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 83, 83]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 83, 82]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 83, 82]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 82, 82]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 82, 81]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 82, 81]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 82, 80]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 82, 80]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 82, 80]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 93, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79]
+potential drop point indices:  [1]
+lidar distances:  [93]
+min_dist:  93
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  22.498736290769095
+y:  90.23750254366767
+I think I am a tree:  []
+
+
+lidar samples:  [0, 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78]
+potential drop point indices:  [1]
+lidar distances:  [92]
+min_dist:  92
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  22.256814395169425
+y:  89.26720681739168
+I think I am a tree:  []
+
+
+lidar samples:  [0, 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78]
+potential drop point indices:  [1]
+lidar distances:  [92]
+min_dist:  92
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  22.256814395169425
+y:  89.26720681739168
+I think I am a tree:  []
+
+
+lidar samples:  [0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78]
+potential drop point indices:  [1]
+lidar distances:  [91]
+min_dist:  91
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  22.014892499569758
+y:  88.29691109111567
+I think I am a tree:  []
+
+
+lidar samples:  [0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78]
+potential drop point indices:  [1]
+lidar distances:  [91]
+min_dist:  91
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  22.014892499569758
+y:  88.29691109111567
+I think I am a tree:  []
+
+
+lidar samples:  [0, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [90]
+min_dist:  90
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  21.77297060397009
+y:  87.32661536483968
+I think I am a tree:  []
+
+
+lidar samples:  [0, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [90]
+min_dist:  90
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  21.77297060397009
+y:  87.32661536483968
+I think I am a tree:  []
+
+
+lidar samples:  [0, 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [89]
+min_dist:  89
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  21.531048708370424
+y:  86.35631963856369
+I think I am a tree:  []
+
+
+lidar samples:  [0, 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [89]
+min_dist:  89
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  21.531048708370424
+y:  86.35631963856369
+I think I am a tree:  []
+
+
+lidar samples:  [0, 88, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [88]
+min_dist:  88
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  21.289126812770757
+y:  85.38602391228768
+I think I am a tree:  []
+
+
+lidar samples:  [0, 88, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [88]
+min_dist:  88
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  21.289126812770757
+y:  85.38602391228768
+I think I am a tree:  []
+
+
+lidar samples:  [0, 88, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [88]
+min_dist:  88
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  21.289126812770757
+y:  85.38602391228768
+I think I am a tree:  []
+
+
+lidar samples:  [0, 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [87]
+min_dist:  87
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  21.047204917171086
+y:  84.41572818601169
+I think I am a tree:  []
+
+
+lidar samples:  [0, 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [87]
+min_dist:  87
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  21.047204917171086
+y:  84.41572818601169
+I think I am a tree:  []
+
+
+lidar samples:  [0, 86, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [86]
+min_dist:  86
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  20.80528302157142
+y:  83.4454324597357
+I think I am a tree:  []
+
+
+lidar samples:  [0, 86, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [86]
+min_dist:  86
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  20.80528302157142
+y:  83.4454324597357
+I think I am a tree:  []
+
+
+lidar samples:  [0, 85, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [85]
+min_dist:  85
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  20.563361125971753
+y:  82.4751367334597
+I think I am a tree:  []
+
+
+lidar samples:  [0, 85, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1]
+lidar distances:  [85]
+min_dist:  85
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  20.563361125971753
+y:  82.4751367334597
+I think I am a tree:  []
+
+
+lidar samples:  [0, 85, 0, 0, 0, 0, 0, 0, 0, 239, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 239, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1, 9, 21]
+lidar distances:  [ 85 239 239]
+min_dist:  85
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  20.563361125971753
+y:  82.4751367334597
+I think I am a tree:  []
+
+
+lidar samples:  [0, 84, 0, 0, 0, 0, 0, 0, 0, 238, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 238, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1, 9, 21]
+lidar distances:  [ 84 238 238]
+min_dist:  84
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  20.321439230372086
+y:  81.5048410071837
+I think I am a tree:  []
+
+
+lidar samples:  [0, 84, 0, 0, 0, 0, 0, 0, 0, 238, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 238, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1, 9, 21]
+lidar distances:  [ 84 238 238]
+min_dist:  84
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  20.321439230372086
+y:  81.5048410071837
+I think I am a tree:  []
+
+
+lidar samples:  [0, 83, 0, 0, 0, 0, 0, 0, 0, 237, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 237, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [1, 9, 21]
+lidar distances:  [ 83 237 237]
+min_dist:  83
+indx:  (array([1]),)
+indx:  1
+angle:  14
+x:  20.07951733477242
+y:  80.53454528090771
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 237, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 237, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 21]
+lidar distances:  [237 237]
+min_dist:  237
+indx:  (array([ 9, 21]),)
+indx:  9
+angle:  6
+x:  24.77324579443387
+y:  235.70168920228076
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 237, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 236, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 21]
+lidar distances:  [237 236]
+min_dist:  236
+indx:  (array([21]),)
+indx:  21
+angle:  -6
+x:  -24.66871733116624
+y:  234.7071673069125
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 236, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 21]
+lidar distances:  [236 236]
+min_dist:  236
+indx:  (array([ 9, 21]),)
+indx:  9
+angle:  6
+x:  24.668717331166217
+y:  234.7071673069125
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 235, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 21]
+lidar distances:  [236 235]
+min_dist:  235
+indx:  (array([21]),)
+indx:  21
+angle:  -6
+x:  -24.564188867898586
+y:  233.71264541154423
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 235, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 235, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 21]
+lidar distances:  [235 235]
+min_dist:  235
+indx:  (array([ 9, 21]),)
+indx:  9
+angle:  6
+x:  24.56418886789856
+y:  233.71264541154423
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 235, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [235]
+min_dist:  235
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.56418886789856
+y:  233.71264541154423
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [234]
+min_dist:  234
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.45966040463091
+y:  232.71812351617595
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [234]
+min_dist:  234
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.45966040463091
+y:  232.71812351617595
+I think I am a tree:  []
+
+
+lidar samples:  [79, 0, 0, 0, 0, 0, 0, 0, 0, 233, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [233]
+min_dist:  233
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.355131941363254
+y:  231.72360162080767
+I think I am a tree:  []
+
+
+lidar samples:  [79, 0, 0, 0, 0, 0, 0, 0, 0, 233, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [233]
+min_dist:  233
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.355131941363254
+y:  231.72360162080767
+I think I am a tree:  []
+
+
+lidar samples:  [78, 0, 0, 0, 0, 0, 0, 0, 0, 232, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [232]
+min_dist:  232
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.250603478095602
+y:  230.7290797254394
+I think I am a tree:  []
+
+
+lidar samples:  [78, 0, 0, 0, 0, 0, 0, 0, 0, 232, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [232]
+min_dist:  232
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.250603478095602
+y:  230.7290797254394
+I think I am a tree:  []
+
+
+lidar samples:  [77, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [231]
+min_dist:  231
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.14607501482795
+y:  229.73455783007114
+I think I am a tree:  []
+
+
+lidar samples:  [77, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [231]
+min_dist:  231
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.14607501482795
+y:  229.73455783007114
+I think I am a tree:  []
+
+
+lidar samples:  [76, 0, 0, 0, 0, 0, 0, 0, 0, 230, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [230]
+min_dist:  230
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.041546551560295
+y:  228.74003593470286
+I think I am a tree:  []
+
+
+lidar samples:  [76, 0, 0, 0, 0, 0, 0, 0, 0, 230, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [230]
+min_dist:  230
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  24.041546551560295
+y:  228.74003593470286
+I think I am a tree:  []
+
+
+lidar samples:  [75, 0, 0, 0, 0, 0, 0, 0, 0, 229, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [229]
+min_dist:  229
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.937018088292643
+y:  227.74551403933458
+I think I am a tree:  []
+
+
+lidar samples:  [75, 0, 0, 0, 0, 0, 0, 0, 0, 229, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [229]
+min_dist:  229
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.937018088292643
+y:  227.74551403933458
+I think I am a tree:  []
+
+
+lidar samples:  [74, 0, 0, 0, 0, 0, 0, 0, 0, 229, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [229]
+min_dist:  229
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.937018088292643
+y:  227.74551403933458
+I think I am a tree:  []
+
+
+lidar samples:  [74, 0, 0, 0, 0, 0, 0, 0, 0, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [228]
+min_dist:  228
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.832489625024987
+y:  226.7509921439663
+I think I am a tree:  []
+
+
+lidar samples:  [74, 0, 0, 0, 0, 0, 0, 0, 0, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [228]
+min_dist:  228
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.832489625024987
+y:  226.7509921439663
+I think I am a tree:  []
+
+
+lidar samples:  [73, 0, 0, 0, 0, 0, 0, 0, 0, 227, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [227]
+min_dist:  227
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.727961161757335
+y:  225.75647024859805
+I think I am a tree:  []
+
+
+lidar samples:  [73, 0, 0, 0, 0, 0, 0, 0, 0, 227, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [227]
+min_dist:  227
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.727961161757335
+y:  225.75647024859805
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 226, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [226]
+min_dist:  226
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.62343269848968
+y:  224.76194835322977
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 226, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [226]
+min_dist:  226
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.62343269848968
+y:  224.76194835322977
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 225, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [225]
+min_dist:  225
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.518904235222028
+y:  223.7674264578615
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 225, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [225]
+min_dist:  225
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.518904235222028
+y:  223.7674264578615
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [224]
+min_dist:  224
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.414375771954376
+y:  222.7729045624932
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 224, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [224]
+min_dist:  224
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.414375771954376
+y:  222.7729045624932
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 223, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [223]
+min_dist:  223
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.30984730868672
+y:  221.77838266712493
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 223, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [223]
+min_dist:  223
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.30984730868672
+y:  221.77838266712493
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 223, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [223]
+min_dist:  223
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.30984730868672
+y:  221.77838266712493
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 222, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [222]
+min_dist:  222
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.205318845419068
+y:  220.78386077175668
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 222, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [222]
+min_dist:  222
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.205318845419068
+y:  220.78386077175668
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 221, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 222, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 22]
+lidar distances:  [221 222]
+min_dist:  221
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  23.100790382151413
+y:  219.7893388763884
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 221, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 221, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 22]
+lidar distances:  [221 221]
+min_dist:  221
+indx:  (array([ 9, 22]),)
+indx:  9
+angle:  6
+x:  23.100790382151413
+y:  219.7893388763884
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 220, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 221, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 22]
+lidar distances:  [220 221]
+min_dist:  220
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.99626191888376
+y:  218.79481698102012
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 220, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 220, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 22]
+lidar distances:  [220 220]
+min_dist:  220
+indx:  (array([ 9, 22]),)
+indx:  9
+angle:  6
+x:  22.99626191888376
+y:  218.79481698102012
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 219, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 220, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 22]
+lidar distances:  [219 220]
+min_dist:  219
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.89173345561611
+y:  217.80029508565184
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 219, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 219, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 22]
+lidar distances:  [219 219]
+min_dist:  219
+indx:  (array([ 9, 22]),)
+indx:  9
+angle:  6
+x:  22.89173345561611
+y:  217.80029508565184
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 218, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 219, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 22]
+lidar distances:  [218 219]
+min_dist:  218
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.787204992348453
+y:  216.8057731902836
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 218, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 218, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 22]
+lidar distances:  [218 218]
+min_dist:  218
+indx:  (array([ 9, 22]),)
+indx:  9
+angle:  6
+x:  22.787204992348453
+y:  216.8057731902836
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 217, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 218, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 22]
+lidar distances:  [217 218]
+min_dist:  217
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.6826765290808
+y:  215.8112512949153
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 217, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [217]
+min_dist:  217
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.6826765290808
+y:  215.8112512949153
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 217, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [217]
+min_dist:  217
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.6826765290808
+y:  215.8112512949153
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 216, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [216]
+min_dist:  216
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.578148065813146
+y:  214.81672939954703
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 216, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [216]
+min_dist:  216
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.578148065813146
+y:  214.81672939954703
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 215, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [215]
+min_dist:  215
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.473619602545494
+y:  213.82220750417875
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 215, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [215]
+min_dist:  215
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.473619602545494
+y:  213.82220750417875
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 214, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [214]
+min_dist:  214
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.369091139277838
+y:  212.8276856088105
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 214, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [214]
+min_dist:  214
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.369091139277838
+y:  212.8276856088105
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 213, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [213]
+min_dist:  213
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.264562676010186
+y:  211.83316371344222
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 213, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [213]
+min_dist:  213
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.264562676010186
+y:  211.83316371344222
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 212, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [212]
+min_dist:  212
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.160034212742534
+y:  210.83864181807394
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 212, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [212]
+min_dist:  212
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.160034212742534
+y:  210.83864181807394
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 212, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [212]
+min_dist:  212
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.160034212742534
+y:  210.83864181807394
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 211, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [211]
+min_dist:  211
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.05550574947488
+y:  209.84411992270566
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 211, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [211]
+min_dist:  211
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  22.05550574947488
+y:  209.84411992270566
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 210, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [210]
+min_dist:  210
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.950977286207227
+y:  208.84959802733738
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 210, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [210]
+min_dist:  210
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.950977286207227
+y:  208.84959802733738
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 209, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [209]
+min_dist:  209
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.84644882293957
+y:  207.85507613196913
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 209, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [209]
+min_dist:  209
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.84644882293957
+y:  207.85507613196913
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [208]
+min_dist:  208
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.74192035967192
+y:  206.86055423660085
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9]
+lidar distances:  [208]
+min_dist:  208
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.74192035967192
+y:  206.86055423660085
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 207, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 209, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 23]
+lidar distances:  [207 209]
+min_dist:  207
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.637391896404267
+y:  205.86603234123257
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 207, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 23]
+lidar distances:  [207 208]
+min_dist:  207
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.637391896404267
+y:  205.86603234123257
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 207, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 207, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 23]
+lidar distances:  [207 207]
+min_dist:  207
+indx:  (array([ 9, 23]),)
+indx:  9
+angle:  6
+x:  21.637391896404267
+y:  205.86603234123257
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 207, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 23]
+lidar distances:  [206 207]
+min_dist:  206
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.53286343313661
+y:  204.8715104458643
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 207, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 23]
+lidar distances:  [206 207]
+min_dist:  206
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.53286343313661
+y:  204.8715104458643
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 205, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 23]
+lidar distances:  [205 206]
+min_dist:  205
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.42833496986896
+y:  203.87698855049604
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 205, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [9, 23]
+lidar distances:  [205 206]
+min_dist:  205
+indx:  (array([9]),)
+indx:  9
+angle:  6
+x:  21.42833496986896
+y:  203.87698855049604
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [23]
+lidar distances:  [206]
+min_dist:  206
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -28.66965879777346
+y:  203.9952221607635
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 197, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [24]
+lidar distances:  [197]
+min_dist:  197
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -30.81758961292547
+y:  194.57460309724215
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 197, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [24]
+lidar distances:  [197]
+min_dist:  197
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -30.81758961292547
+y:  194.57460309724215
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 196, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [24]
+lidar distances:  [196]
+min_dist:  196
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -30.66115514788524
+y:  193.586914756647
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 196, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [24]
+lidar distances:  [196]
+min_dist:  196
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -30.66115514788524
+y:  193.586914756647
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 196, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [24]
+lidar distances:  [196]
+min_dist:  196
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -30.66115514788524
+y:  193.586914756647
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 195, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [24]
+lidar distances:  [195]
+min_dist:  195
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -30.504720682845008
+y:  192.59922641605186
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 188, 0, 0, 0, 0, 0]
+potential drop point indices:  [25]
+lidar distances:  [188]
+min_dist:  188
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -32.6458574013829
+y:  185.1438575662951
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 188, 0, 0, 0, 0, 0]
+potential drop point indices:  [25]
+lidar distances:  [188]
+min_dist:  188
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -32.6458574013829
+y:  185.1438575662951
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 187, 0, 0, 0, 0, 0]
+potential drop point indices:  [25]
+lidar distances:  [187]
+min_dist:  187
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -32.472209223715964
+y:  184.1590498132829
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 187, 0, 0, 0, 0, 0]
+potential drop point indices:  [25]
+lidar distances:  [187]
+min_dist:  187
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -32.472209223715964
+y:  184.1590498132829
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 186, 0, 0, 0, 0, 0]
+potential drop point indices:  [25]
+lidar distances:  [186]
+min_dist:  186
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -32.29856104604904
+y:  183.1742420602707
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 186, 0, 0, 0, 0, 0]
+potential drop point indices:  [25]
+lidar distances:  [186]
+min_dist:  186
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -32.29856104604904
+y:  183.1742420602707
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 186, 0, 0, 0, 0, 0]
+potential drop point indices:  [25]
+lidar distances:  [186]
+min_dist:  186
+indx:  (array([25]),)
+indx:  25
+angle:  -10
+x:  -32.29856104604904
+y:  183.1742420602707
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 179, 0, 0, 0, 0]
+potential drop point indices:  [26]
+lidar distances:  [179]
+min_dist:  179
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -34.15481017240152
+y:  175.71126583713186
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 179, 0, 0, 0, 0]
+potential drop point indices:  [26]
+lidar distances:  [179]
+min_dist:  179
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -34.15481017240152
+y:  175.71126583713186
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 178, 0, 0, 0, 0]
+potential drop point indices:  [26]
+lidar distances:  [178]
+min_dist:  178
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -33.964001177024976
+y:  174.7296386536842
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 178, 0, 0, 0, 0]
+potential drop point indices:  [26]
+lidar distances:  [178]
+min_dist:  178
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -33.964001177024976
+y:  174.7296386536842
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 177, 0, 0, 0, 0]
+potential drop point indices:  [26]
+lidar distances:  [177]
+min_dist:  177
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -33.77319218164843
+y:  173.74801147023652
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 177, 0, 0, 0, 0]
+potential drop point indices:  [26]
+lidar distances:  [177]
+min_dist:  177
+indx:  (array([26]),)
+indx:  26
+angle:  -11
+x:  -33.77319218164843
+y:  173.74801147023652
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 174, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [174]
+min_dist:  174
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  15.165099238092516
+y:  173.33787746796372
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 174, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [174]
+min_dist:  174
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  15.165099238092516
+y:  173.33787746796372
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 173, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [173]
+min_dist:  173
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  15.077943495344858
+y:  172.34168276987197
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 172, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [172]
+min_dist:  172
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.9907877525972
+y:  171.34548807178024
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 172, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [172]
+min_dist:  172
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.9907877525972
+y:  171.34548807178024
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 172, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [172]
+min_dist:  172
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.9907877525972
+y:  171.34548807178024
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 171, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [171]
+min_dist:  171
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.903632009849542
+y:  170.34929337368848
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 171, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [171]
+min_dist:  171
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.903632009849542
+y:  170.34929337368848
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [170]
+min_dist:  170
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.816476267101883
+y:  169.35309867559675
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [170]
+min_dist:  170
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.816476267101883
+y:  169.35309867559675
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 169, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [169]
+min_dist:  169
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.729320524354225
+y:  168.356903977505
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 169, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [169]
+min_dist:  169
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.729320524354225
+y:  168.356903977505
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 168, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 172, 0, 0, 0]
+potential drop point indices:  [10, 27]
+lidar distances:  [168 172]
+min_dist:  168
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.642164781606567
+y:  167.36070927941324
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 168, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 171, 0, 0, 0]
+potential drop point indices:  [10, 27]
+lidar distances:  [168 171]
+min_dist:  168
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.642164781606567
+y:  167.36070927941324
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170, 0, 0, 0]
+potential drop point indices:  [10, 27]
+lidar distances:  [167 170]
+min_dist:  167
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.555009038858909
+y:  166.36451458132152
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170, 0, 0, 0]
+potential drop point indices:  [10, 27]
+lidar distances:  [167 170]
+min_dist:  167
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.555009038858909
+y:  166.36451458132152
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170, 0, 0, 0]
+potential drop point indices:  [10, 27]
+lidar distances:  [167 170]
+min_dist:  167
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.555009038858909
+y:  166.36451458132152
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 166, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170, 0, 0, 0]
+potential drop point indices:  [10, 27]
+lidar distances:  [166 170]
+min_dist:  166
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.467853296111251
+y:  165.36831988322976
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 166, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [166]
+min_dist:  166
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.467853296111251
+y:  165.36831988322976
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 165, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [165]
+min_dist:  165
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.380697553363593
+y:  164.372125185138
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 165, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [165]
+min_dist:  165
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.380697553363593
+y:  164.372125185138
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 165, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [165]
+min_dist:  165
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  14.380697553363593
+y:  164.372125185138
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 165, 0, 0]
+potential drop point indices:  [28]
+lidar distances:  [165]
+min_dist:  165
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -37.11692396673773
+y:  160.77106068956383
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 164, 0, 0]
+potential drop point indices:  [28]
+lidar distances:  [164]
+min_dist:  164
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -36.89197291239387
+y:  159.7966906247786
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 164, 0, 0]
+potential drop point indices:  [28]
+lidar distances:  [164]
+min_dist:  164
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -36.89197291239387
+y:  159.7966906247786
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 164, 0, 0]
+potential drop point indices:  [28]
+lidar distances:  [164]
+min_dist:  164
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -36.89197291239387
+y:  159.7966906247786
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 163, 0, 0]
+potential drop point indices:  [28]
+lidar distances:  [163]
+min_dist:  163
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -36.66702185805
+y:  158.82232055999336
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 163, 0, 0]
+potential drop point indices:  [28]
+lidar distances:  [163]
+min_dist:  163
+indx:  (array([28]),)
+indx:  28
+angle:  -13
+x:  -36.66702185805
+y:  158.82232055999336
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 158, 0]
+potential drop point indices:  [29]
+lidar distances:  [158]
+min_dist:  158
+indx:  (array([29]),)
+indx:  29
+angle:  -14
+x:  -38.22365950474751
+y:  153.30672475160745
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 158, 0]
+potential drop point indices:  [29]
+lidar distances:  [158]
+min_dist:  158
+indx:  (array([29]),)
+indx:  29
+angle:  -14
+x:  -38.22365950474751
+y:  153.30672475160745
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 157, 0]
+potential drop point indices:  [29]
+lidar distances:  [157]
+min_dist:  157
+indx:  (array([29]),)
+indx:  29
+angle:  -14
+x:  -37.98173760914784
+y:  152.33642902533146
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 157, 0]
+potential drop point indices:  [29]
+lidar distances:  [157]
+min_dist:  157
+indx:  (array([29]),)
+indx:  29
+angle:  -14
+x:  -37.98173760914784
+y:  152.33642902533146
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 157, 0]
+potential drop point indices:  [29]
+lidar distances:  [157]
+min_dist:  157
+indx:  (array([29]),)
+indx:  29
+angle:  -14
+x:  -37.98173760914784
+y:  152.33642902533146
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 149, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [149]
+min_dist:  149
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.39371458787466
+y:  148.6370434887138
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 153]
+potential drop point indices:  [11]
+lidar distances:  [148]
+min_dist:  148
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.323958114130534
+y:  147.63947943845398
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 152]
+potential drop point indices:  [11]
+lidar distances:  [148]
+min_dist:  148
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.323958114130534
+y:  147.63947943845398
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 147, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 152]
+potential drop point indices:  [11]
+lidar distances:  [147]
+min_dist:  147
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.254201640386409
+y:  146.64191538819415
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 147, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 152]
+potential drop point indices:  [11]
+lidar distances:  [147]
+min_dist:  147
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.254201640386409
+y:  146.64191538819415
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 151]
+potential drop point indices:  [11]
+lidar distances:  [146]
+min_dist:  146
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.184445166642284
+y:  145.64435133793432
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [146]
+min_dist:  146
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.184445166642284
+y:  145.64435133793432
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 145, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [145]
+min_dist:  145
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.11468869289816
+y:  144.6467872876745
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 145, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [145]
+min_dist:  145
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.11468869289816
+y:  144.6467872876745
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [144]
+min_dist:  144
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.044932219154033
+y:  143.64922323741467
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [144]
+min_dist:  144
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.044932219154033
+y:  143.64922323741467
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [144]
+min_dist:  144
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  10.044932219154033
+y:  143.64922323741467
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [143]
+min_dist:  143
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  9.975175745409908
+y:  142.65165918715485
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [143]
+min_dist:  143
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  9.975175745409908
+y:  142.65165918715485
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [255]
+min_dist:  255
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  22.224714400652825
+y:  254.0296480133951
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [255]
+min_dist:  255
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  22.224714400652825
+y:  254.0296480133951
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [10]
+lidar distances:  [254]
+min_dist:  254
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  22.137558657905167
+y:  253.03345331530338
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [22]
+lidar distances:  [255]
+min_dist:  255
+indx:  (array([11, 22]),)
+indx:  11
+angle:  4
+x:  17.787900804751935
+y:  254.37883281625517
+I think I am a tree:  [10, 11]
+lidar distances:  [254 255]
+min_dist:  254
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  22.137558657905167
+y:  253.03345331530338
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 254, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  []
+I think I am a tree:  [10, 11, 21, 22]
+lidar distances:  [254 255 255 255]
+min_dist:  254
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  22.137558657905167
+y:  253.03345331530338
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 254, 135, 0, 0, 0, 0, 0, 0, 0, 0, 255, 254, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12]
+lidar distances:  [135]
+min_dist:  135
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  7.065354092797436
+y:  134.81498719186746
+I think I am a tree:  [10, 11, 21, 22]
+lidar distances:  [253 254 255 254]
+min_dist:  253
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  22.05040291515751
+y:  252.03725861721162
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 254, 134, 0, 0, 0, 0, 0, 0, 0, 0, 255, 254, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12]
+lidar distances:  [134]
+min_dist:  134
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  7.013018136554492
+y:  133.8163576571129
+I think I am a tree:  [10, 11, 21, 22]
+lidar distances:  [253 254 255 254]
+min_dist:  253
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  22.05040291515751
+y:  252.03725861721162
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 252, 253, 134, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [134 253]
+min_dist:  134
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  7.013018136554492
+y:  133.8163576571129
+I think I am a tree:  [10, 11]
+lidar distances:  [252 253]
+min_dist:  252
+indx:  (array([10]),)
+indx:  10
+angle:  5
+x:  21.96324717240985
+y:  251.04106391911986
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 252, 252, 133, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [133 253]
+min_dist:  133
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.960682180311547
+y:  132.81772812235832
+I think I am a tree:  [10, 11]
+lidar distances:  [252 252]
+min_dist:  252
+indx:  (array([10, 11]),)
+indx:  10
+angle:  5
+x:  21.96324717240985
+y:  251.04106391911986
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 252, 252, 133, 0, 0, 0, 0, 0, 0, 0, 0, 0, 252, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [133 252]
+min_dist:  133
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.960682180311547
+y:  132.81772812235832
+I think I am a tree:  [10, 11]
+lidar distances:  [252 252]
+min_dist:  252
+indx:  (array([10, 11, 22]),)
+indx:  10
+angle:  5
+x:  21.96324717240985
+y:  251.04106391911986
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 251, 251, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 252, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [132 252]
+min_dist:  132
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.9083462240686035
+y:  131.81909858760375
+I think I am a tree:  [10, 11]
+lidar distances:  [251 251]
+min_dist:  251
+indx:  (array([10, 11]),)
+indx:  10
+angle:  5
+x:  21.876091429662193
+y:  250.04486922102814
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 251, 251, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 251, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [132 251]
+min_dist:  132
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.9083462240686035
+y:  131.81909858760375
+I think I am a tree:  [10, 11]
+lidar distances:  [251 251]
+min_dist:  251
+indx:  (array([10, 11, 22]),)
+indx:  10
+angle:  5
+x:  21.876091429662193
+y:  250.04486922102814
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 251, 250, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 251, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [131 251]
+min_dist:  131
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.85601026782566
+y:  130.82046905284918
+I think I am a tree:  [10, 11]
+lidar distances:  [251 250]
+min_dist:  250
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.439118436031308
+y:  249.39101256495604
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 250, 250, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 250, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [131 250]
+min_dist:  131
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.85601026782566
+y:  130.82046905284918
+I think I am a tree:  [10, 11]
+lidar distances:  [250 250]
+min_dist:  250
+indx:  (array([10, 11, 22]),)
+indx:  10
+angle:  5
+x:  21.788935686914535
+y:  249.04867452293638
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 250, 249, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 250, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [131 250]
+min_dist:  131
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.85601026782566
+y:  130.82046905284918
+I think I am a tree:  [10, 11]
+lidar distances:  [250 249]
+min_dist:  249
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.369361962287183
+y:  248.39344851469622
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 249, 249, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 249, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [130 249]
+min_dist:  130
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.803674311582716
+y:  129.8218395180946
+I think I am a tree:  [10, 11]
+lidar distances:  [249 249]
+min_dist:  249
+indx:  (array([10, 11, 22]),)
+indx:  10
+angle:  5
+x:  21.701779944166876
+y:  248.05247982484465
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 249, 248, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 249, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [130 249]
+min_dist:  130
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.803674311582716
+y:  129.8218395180946
+I think I am a tree:  [10, 11]
+lidar distances:  [249 248]
+min_dist:  248
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.299605488543058
+y:  247.3958844644364
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 249, 248, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 248, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [12, 22]
+lidar distances:  [129 248]
+min_dist:  129
+indx:  (array([12]),)
+indx:  12
+angle:  3
+x:  6.7513383553397714
+y:  128.82320998334004
+I think I am a tree:  [10, 11]
+lidar distances:  [249 248]
+min_dist:  248
+indx:  (array([11, 22]),)
+indx:  11
+angle:  4
+x:  17.299605488543058
+y:  247.3958844644364
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 248, 247, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 248, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [22]
+lidar distances:  [248]
+min_dist:  248
+indx:  (array([10, 22]),)
+indx:  10
+angle:  5
+x:  21.61462420141922
+y:  247.0562851267529
+I think I am a tree:  [10, 11]
+lidar distances:  [248 247]
+min_dist:  247
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.229849014798933
+y:  246.39832041417657
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 248, 247, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 247, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [22]
+lidar distances:  [247]
+min_dist:  247
+indx:  (array([11, 22]),)
+indx:  11
+angle:  4
+x:  17.229849014798933
+y:  246.39832041417657
+I think I am a tree:  [10, 11]
+lidar distances:  [248 247]
+min_dist:  247
+indx:  (array([11, 22]),)
+indx:  11
+angle:  4
+x:  17.229849014798933
+y:  246.39832041417657
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 248, 246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 247, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [22]
+lidar distances:  [247]
+min_dist:  247
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -30.1017278210714
+y:  245.15889945540656
+I think I am a tree:  [10, 11]
+lidar distances:  [248 246]
+min_dist:  246
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.16009254105481
+y:  245.40075636391674
+
+
+lidar samples:  [255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 247, 246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 247, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [22]
+lidar distances:  [247]
+min_dist:  247
+indx:  (array([10, 22]),)
+indx:  10
+angle:  5
+x:  21.52746845867156
+y:  246.06009042866114
+I think I am a tree:  [10, 11]
+lidar distances:  [247 246]
+min_dist:  246
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.16009254105481
+y:  245.40075636391674
+
+
+lidar samples:  [255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 247, 245, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 246, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [22]
+lidar distances:  [246]
+min_dist:  246
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -29.97985847766625
+y:  244.16635330376525
+I think I am a tree:  [10, 11]
+lidar distances:  [247 245]
+min_dist:  245
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.09033606731068
+y:  244.40319231365692
+
+
+lidar samples:  [254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 247, 245, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 246, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [22]
+lidar distances:  [246]
+min_dist:  246
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -29.97985847766625
+y:  244.16635330376525
+I think I am a tree:  [10, 11]
+lidar distances:  [247 245]
+min_dist:  245
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.09033606731068
+y:  244.40319231365692
+
+
+lidar samples:  [254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 247, 244, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 246, 0, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [22]
+lidar distances:  [246]
+min_dist:  246
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -29.97985847766625
+y:  244.16635330376525
+I think I am a tree:  [10, 11]
+lidar distances:  [247 244]
+min_dist:  244
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.020579593566556
+y:  243.4056282633971
+
+
+lidar samples:  [254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 244, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 245, 247, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [244]
+min_dist:  244
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  17.020579593566556
+y:  243.4056282633971
+I think I am a tree:  [22, 23]
+lidar distances:  [245 247]
+min_dist:  245
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -29.857989134261103
+y:  243.1738071521239
+
+
+lidar samples:  [253, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 243, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 245, 246, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [243]
+min_dist:  243
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.95082311982243
+y:  242.4080642131373
+I think I am a tree:  [22, 23]
+lidar distances:  [245 246]
+min_dist:  245
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -29.857989134261103
+y:  243.1738071521239
+
+
+lidar samples:  [253, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 243, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 245, 246, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [243]
+min_dist:  243
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.95082311982243
+y:  242.4080642131373
+I think I am a tree:  [22, 23]
+lidar distances:  [245 246]
+min_dist:  245
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -29.857989134261103
+y:  243.1738071521239
+
+
+lidar samples:  [252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 242, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 244, 245, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [242]
+min_dist:  242
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.881066646078306
+y:  241.41050016287747
+I think I am a tree:  [22, 23]
+lidar distances:  [244 245]
+min_dist:  244
+indx:  (array([22]),)
+indx:  22
+angle:  -7
+x:  -29.736119790855955
+y:  242.18126100048258
+
+
+lidar samples:  [252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 242, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 244, 244, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [242]
+min_dist:  242
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.881066646078306
+y:  241.41050016287747
+I think I am a tree:  [22, 23]
+lidar distances:  [244 244]
+min_dist:  244
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -29.736119790855955
+y:  242.18126100048258
+
+
+lidar samples:  [251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 241, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 244, 244, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [241]
+min_dist:  241
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.81131017233418
+y:  240.41293611261764
+I think I am a tree:  [22, 23]
+lidar distances:  [244 244]
+min_dist:  244
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -29.736119790855955
+y:  242.18126100048258
+
+
+lidar samples:  [251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 241, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 243, 243, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [241]
+min_dist:  241
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.81131017233418
+y:  240.41293611261764
+I think I am a tree:  [22, 23]
+lidar distances:  [243 243]
+min_dist:  243
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -29.61425044745081
+y:  241.18871484884127
+
+
+lidar samples:  [251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 241, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 243, 243, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [241]
+min_dist:  241
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.81131017233418
+y:  240.41293611261764
+I think I am a tree:  [22, 23]
+lidar distances:  [243 243]
+min_dist:  243
+indx:  (array([22, 23]),)
+indx:  22
+angle:  -7
+x:  -29.61425044745081
+y:  241.18871484884127
+
+
+lidar samples:  [250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 240, 0, 122, 0, 0, 0, 0, 0, 0, 0, 0, 243, 242, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13]
+lidar distances:  [240 122]
+min_dist:  122
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.257738597705131
+y:  121.92568089632968
+I think I am a tree:  [22, 23]
+lidar distances:  [243 242]
+min_dist:  242
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -33.67989043233582
+y:  239.64487263546002
+
+
+lidar samples:  [250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 240, 0, 122, 0, 0, 0, 0, 0, 0, 0, 0, 243, 241, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13]
+lidar distances:  [240 122]
+min_dist:  122
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.257738597705131
+y:  121.92568089632968
+I think I am a tree:  [22, 23]
+lidar distances:  [243 241]
+min_dist:  241
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -33.54071733137575
+y:  238.65460456671846
+
+
+lidar samples:  [249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 239, 0, 121, 0, 0, 0, 0, 0, 0, 0, 0, 243, 241, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13]
+lidar distances:  [239 121]
+min_dist:  121
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.222839101002631
+y:  120.92629006931058
+I think I am a tree:  [22, 23]
+lidar distances:  [243 241]
+min_dist:  241
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -33.54071733137575
+y:  238.65460456671846
+
+
+lidar samples:  [249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 239, 0, 121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 240, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13, 23]
+lidar distances:  [239 121 240]
+min_dist:  121
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.222839101002631
+y:  120.92629006931058
+I think I am a tree:  []
+
+
+lidar samples:  [248, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 238, 0, 120, 0, 0, 0, 0, 0, 0, 0, 0, 0, 240, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13, 23]
+lidar distances:  [238 120 240]
+min_dist:  120
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.18793960430013
+y:  119.9268992422915
+I think I am a tree:  []
+
+
+lidar samples:  [248, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 238, 0, 120, 0, 0, 0, 0, 0, 0, 0, 0, 0, 239, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13, 23]
+lidar distances:  [238 120 239]
+min_dist:  120
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.18793960430013
+y:  119.9268992422915
+I think I am a tree:  []
+
+
+lidar samples:  [248, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 237, 0, 119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 239, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13, 23]
+lidar distances:  [237 119 239]
+min_dist:  119
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.153040107597628
+y:  118.9275084152724
+I think I am a tree:  []
+
+
+lidar samples:  [247, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 237, 0, 119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 238, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13, 23]
+lidar distances:  [237 119 238]
+min_dist:  119
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.153040107597628
+y:  118.9275084152724
+I think I am a tree:  []
+
+
+lidar samples:  [247, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 236, 0, 118, 0, 0, 0, 0, 0, 0, 0, 0, 0, 238, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13, 23]
+lidar distances:  [236 118 238]
+min_dist:  118
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.118140610895128
+y:  117.9281175882533
+I think I am a tree:  []
+
+
+lidar samples:  [246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 236, 0, 118, 0, 0, 0, 0, 0, 0, 0, 0, 0, 238, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13, 23]
+lidar distances:  [236 118 238]
+min_dist:  118
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.118140610895128
+y:  117.9281175882533
+I think I am a tree:  []
+
+
+lidar samples:  [246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 235, 0, 118, 0, 0, 0, 0, 0, 0, 0, 0, 0, 237, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13, 23]
+lidar distances:  [235 118 237]
+min_dist:  118
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.118140610895128
+y:  117.9281175882533
+I think I am a tree:  []
+
+
+lidar samples:  [245, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 235, 0, 117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 237, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 13, 23]
+lidar distances:  [235 117 237]
+min_dist:  117
+indx:  (array([13]),)
+indx:  13
+angle:  2
+x:  4.083241114192626
+y:  116.9287267612342
+I think I am a tree:  []
+
+
+lidar samples:  [245, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 236, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 23]
+lidar distances:  [234 236]
+min_dist:  234
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.323014856125305
+y:  233.42998776079887
+I think I am a tree:  []
+
+
+lidar samples:  [245, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 236, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 23]
+lidar distances:  [234 236]
+min_dist:  234
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.323014856125305
+y:  233.42998776079887
+I think I am a tree:  []
+
+
+lidar samples:  [244, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 235, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 23]
+lidar distances:  [234 235]
+min_dist:  234
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.323014856125305
+y:  233.42998776079887
+I think I am a tree:  []
+
+
+lidar samples:  [244, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 233, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 235, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 23]
+lidar distances:  [233 235]
+min_dist:  233
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.25325838238118
+y:  232.43242371053904
+I think I am a tree:  []
+
+
+lidar samples:  [244, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 233, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 235, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 23]
+lidar distances:  [233 235]
+min_dist:  233
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.25325838238118
+y:  232.43242371053904
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 232, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 234, 0, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 23]
+lidar distances:  [232 234]
+min_dist:  232
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.183501908637055
+y:  231.43485966027922
+I think I am a tree:  []
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 232, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 234, 236, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [232]
+min_dist:  232
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.183501908637055
+y:  231.43485966027922
+I think I am a tree:  [24, 23]
+lidar distances:  [236 234]
+min_dist:  234
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -32.56650562465529
+y:  231.72272808552748
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 233, 235, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [231]
+min_dist:  231
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.11374543489293
+y:  230.4372956100194
+I think I am a tree:  [24, 23]
+lidar distances:  [235 233]
+min_dist:  233
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -32.42733252369523
+y:  230.7324600167859
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 233, 234, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [231]
+min_dist:  231
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.11374543489293
+y:  230.4372956100194
+I think I am a tree:  [24, 23]
+lidar distances:  [234 233]
+min_dist:  233
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -32.42733252369523
+y:  230.7324600167859
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 230, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 233, 234, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [230]
+min_dist:  230
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.043988961148802
+y:  229.43973155975957
+I think I am a tree:  [24, 23]
+lidar distances:  [234 233]
+min_dist:  233
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -32.42733252369523
+y:  230.7324600167859
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 230, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 232, 233, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [230]
+min_dist:  230
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  16.043988961148802
+y:  229.43973155975957
+I think I am a tree:  [24, 23]
+lidar distances:  [233 232]
+min_dist:  232
+indx:  (array([23]),)
+indx:  23
+angle:  -8
+x:  -32.28815942273516
+y:  229.74219194804434
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 229, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 232, 232, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [229]
+min_dist:  229
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  15.974232487404679
+y:  228.44216750949974
+I think I am a tree:  [24, 23]
+lidar distances:  [232 232]
+min_dist:  232
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -32.28815942273516
+y:  229.74219194804434
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 229, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 232, 232, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11]
+lidar distances:  [229]
+min_dist:  229
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  15.974232487404679
+y:  228.44216750949974
+I think I am a tree:  [24, 23]
+lidar distances:  [232 232]
+min_dist:  232
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -32.28815942273516
+y:  229.74219194804434
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 229, 0, 0, 111, 0, 0, 0, 0, 0, 0, 0, 0, 231, 231, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 14]
+lidar distances:  [229 111]
+min_dist:  111
+indx:  (array([14]),)
+indx:  14
+angle:  1
+x:  1.9372171145384793
+y:  110.98309416235944
+I think I am a tree:  [24, 23]
+lidar distances:  [231 231]
+min_dist:  231
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -32.1489863217751
+y:  228.75192387930275
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 228, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 231, 231, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 14]
+lidar distances:  [228 110]
+min_dist:  110
+indx:  (array([14]),)
+indx:  14
+angle:  1
+x:  1.919764708101196
+y:  109.98324646720305
+I think I am a tree:  [24, 23]
+lidar distances:  [231 231]
+min_dist:  231
+indx:  (array([23, 24]),)
+indx:  23
+angle:  -8
+x:  -32.1489863217751
+y:  228.75192387930275
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 228, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 231, 230, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 14]
+lidar distances:  [228 110]
+min_dist:  110
+indx:  (array([14]),)
+indx:  14
+angle:  1
+x:  1.919764708101196
+y:  109.98324646720305
+I think I am a tree:  [24, 23]
+lidar distances:  [230 231]
+min_dist:  230
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -35.979926959253085
+y:  227.1683183368817
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 227, 0, 0, 109, 0, 0, 0, 0, 0, 0, 0, 0, 231, 230, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [11, 14]
+lidar distances:  [227 109]
+min_dist:  109
+indx:  (array([14]),)
+indx:  14
+angle:  1
+x:  1.9023123016639123
+y:  108.98339877204666
+I think I am a tree:  [24, 23]
+lidar distances:  [230 231]
+min_dist:  230
+indx:  (array([24]),)
+indx:  24
+angle:  -9
+x:  -35.979926959253085
+y:  227.1683183368817
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 227, 229, 0, 109, 0, 0, 0, 0, 0, 0, 0, 0, 231, 229, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [14]
+lidar distances:  [109]
+min_dist:  109
+indx:  (array([14]),)
+indx:  14
+angle:  1
+x:  1.9023123016639123
+y:  108.98339877204666
+I think I am a tree:  [24, 11, 12, 23]
+lidar distances:  [229 227 229 231]
+min_dist:  227
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  15.834719539916428
+y:  226.4470394089801
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 226, 228, 0, 108, 0, 0, 0, 0, 0, 0, 0, 0, 231, 229, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [14]
+lidar distances:  [108]
+min_dist:  108
+indx:  (array([14]),)
+indx:  14
+angle:  1
+x:  1.8848598952266287
+y:  107.98355107689025
+I think I am a tree:  [24, 11, 12, 23]
+lidar distances:  [229 226 228 231]
+min_dist:  226
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  15.764963066172303
+y:  225.44947535872026
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 226, 228, 0, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 228, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [14, 24]
+lidar distances:  [108 228]
+min_dist:  108
+indx:  (array([14]),)
+indx:  14
+angle:  1
+x:  1.8848598952266287
+y:  107.98355107689025
+I think I am a tree:  [11, 12]
+lidar distances:  [226 228]
+min_dist:  226
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  15.764963066172303
+y:  225.44947535872026
+
+
+lidar samples:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 225, 227, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 228, 0, 0, 0, 0, 0, 0]
+potential drop point indices:  [14, 24]
+lidar distances:  [107 228]
+min_dist:  107
+indx:  (array([14]),)
+indx:  14
+angle:  1
+x:  1.867407488789345
+y:  106.98370338173386
+I think I am a tree:  [11, 12]
+lidar distances:  [225 227]
+min_dist:  225
+indx:  (array([11]),)
+indx:  11
+angle:  4
+x:  15.695206592428178
+y:  224.45191130846044
+
+
+Deliveries: 0
+ZIPAA Violations: 0
