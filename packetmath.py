@@ -6,90 +6,85 @@
 # Copyright 2021 Leah Pillsbury leahp@bu.edu
 
 import numpy as np
-import zip_sim as zs
+# TODO: change to import zip_sim
+import zip_sim_modif as zs
 import math
+
 
 # fwd velocity is constant
 velocity = [30,0]
 
-def checklidar(lidar_samples):
-    # I've noticed that delivery points usually don't have trees next to them.
-    # Is that always true?
-    # It seems like the next delivery point usually only has 1-3 lidar values in
-    # that range and nearby values are 0 or more than 10 different
-    # Trees often have 8-12 similar values nearby. (if a tree got pruned this might not work)
-    #
-    # Based on the assumptions above, this function returns the distance and
-    # degrees from the zip for the next package drop.
-    #
-    # what does it do if it finds a tree?
+def checklidar(lidar_samples, prior_trees):
+    # This function looks at each sample and labels non-zero lidar samples as
+    # being maybe drop points or trees.
+    # if a drop point can't be reached because of a tree obstruction, it will
+    # not be included in the list of drop_points
+    # function returns 2 lists of tuples, one for drop point distance/angles,
+    # and another for trees.
+    # when the zip is very close to the mirror, the lidar reading is also zero,
+    # but at this point package should have already been dropped
 
     mayb_drop_point = []
     tree = []
-    # make 2 lists: one of tuples of trees with distance/angles and one of drop_points
-    # if a point is more than 10 different from its neighbors, it's probably a drop point
-    # 10 is a somewhat arbitrary choice, but it seems to work
-    # if a point is non zero and near neighbors, it's probably a tree... unless it is
-    # quite close, and then it can be a drop point
+    tree_diam = 6 # trees are defined to be 6 meters wide
+    drop_diam = 1 # reflective mirror at drop point is 1 m wide
     for i in range (0,31):
         if (lidar_samples[i] != 0):
-            # deal with first and last sample separately because they have one neighbor
-            # not two
-            if (i == 0 or i == 30):
-                # in this case where the first or last sample is a lot bigger than the next,
-                # we might have the edge of a tree, or a drop point. assume it's a
-                # drop point... if not that will be obvious as we approach
-                if (i == 0):
-                    if(abs(lidar_samples[i]-lidar_samples[i+1]) >= 10):
-                        d_val = (lidar_samples[i], angleheading(i))
-                        mayb_drop_point.append(d_val)
-                    else:
-                        continue
-                if (i == 30):
-                    if(abs(lidar_samples[i]-lidar_samples[i-1]) >= 10):
-                        d_val = (lidar_samples[i], angleheading(i))
-                        mayb_drop_point.append(d_val)
-                    else:
-                        continue
+            max_num_drop_samples = math.ceil(angle_diam(drop_diam, lidar_samples[i]))
+            max_num_tree_samples = math.ceil(angle_diam(tree_diam, lidar_samples[i]))
 
-            # check for drop points
-            elif (abs(lidar_samples[i]-lidar_samples[i-1]) >= 10 and abs(lidar_samples[i]-lidar_samples[i+1]) >= 10):
-                d_val = (lidar_samples[i], angleheading(i))
-                mayb_drop_point.append(d_val)
+            k = i + 1
+            count = 1
+            # compare difference between samples above
+            while(k > 0 and k <= 30 and abs(lidar_samples[i]-lidar_samples[k]) < 3):
+                k +=1
+                count += 1
+            # compare difference between samples below
+            k = i - 1
+            while(k >= 0 and k < 30 and abs(lidar_samples[i]-lidar_samples[k]) < 3):
+                k -=1
+                count += 1
 
-            # for faraway points, a drop point lidar sample would be different from
-            # its neighbors. When approaching a drop point, as many as 3 lidar
-            # samples can reflect off the same drop point. This seems to happen
-            # when the zip is about 20m away.
-            elif(lidar_samples[i] <= 20):
-                mayb_drop_point.append((lidar_samples[i],angleheading(i)))
-
-            # If 2 points are close together, probably part of the same tree
-            # I'm not sure what the case should be if the difference in samples is
-            # between 3 and 10... these are arbitrary values I chose based on observation
-            elif(abs(lidar_samples[i]-lidar_samples[i-1]) <= 3):
-                # if the ith element is a tree, i - 1 is also
-                # if the i +1 element is also a tree, this will create duplicates
-                tree.append((lidar_samples[i-1],angleheading(i-1)))
-                tree.append((lidar_samples[i],angleheading(i)))
-                if(i == 29):
-                    if(abs(lidar_samples[i]-lidar_samples[i+1]) <= 3):
-                        tree.append((lidar_samples[i+1],angleheading(i)))
-
-    # get rid of duplicates in tree list (there should be a better way to not add duplicates in teh first place)
-    tree = list(set(tree))
-    # print("I think I am a tree: ", tree)
-    lidar_samples = np.array(lidar_samples)
-    # mayb_drop_point is a list. only proceed if list is not empty
-    if(mayb_drop_point):
+            # if a drop point is 20 m or more away, it is substantially different from lidar neighbors
+            # count = 1 because neither loop was entered, it's a drop point
+            # if it's the first or last element of the lidar samples it could also
+            # be a tree edge, but that will be sorted out as move towards it
+            angle = angleheading(i)
+            if (lidar_samples[i] > 35):
+                if (count == 1):
+                    mayb_drop_point.append(((lidar_samples[i],angle)))
+                else:
+                    tree.append((lidar_samples[i],angle))
+            elif (count <= max_num_drop_samples):
+                # when zip gets close to a tree on the edge of the lidar range, it
+                # can be confused with a drop point. Assume that if a sample is on
+                # the edge and close, it's a tree (this is the best assumption
+                # because if it was a drop point I already would have navigated
+                # directly towards it. Missing a drop point is better than dropping
+                # at a tree.)
+                # if(lidar_samples[i] < 30 and i < 3 or i > 27):
+                    # continue
+                # as get in closer range, sometimes things that were known trees
+                # get mislabeled as drop_points. try to avoid this
+                # check to see if the same angle was listed as a tree angle before
+                istree = False
+                for pt in prior_trees:
+                    if(pt[1] == angle):
+                        istree = True
+                        break
+                if istree == True:
+                    tree.append((lidar_samples[i],angle))
+                else:
+                    mayb_drop_point.append(((lidar_samples[i],angle)))
+            else:
+                tree.append((lidar_samples[i],angle))
+    # if drop point and tree list are not empty then remove drop points that
+    # cannot be accessed because trees are in the way.
+    if(mayb_drop_point and tree):
         # if drop points are near trees then avoid them (take them out of the list)
-        if(tree):
             drop_points = remove_collision(mayb_drop_point,tree)
-            # print("I think I am a tree: ", tree)
-            # print("Deconflicted drop points: ", drop_points)
             return(drop_points, tree)
     # if tree list or mayb_drop_point is empty, it's fine, an empty list will be returned
-    # is there any reason why this should be an empty list of tuples?
     return(mayb_drop_point, tree)
 
 
@@ -127,6 +122,13 @@ def convert_to_polar(x,y):
     angle = math.degrees(angle)
     return [magnitude, angle]
 
+def angle_diam(diameter, distance):
+    # calculate the angular diameter of a circle (i.e. tree or reflector) with
+    # given distance from the viewer
+    # return angle in degrees
+    # theta = 2 arctan(diameter/(2*distance))
+    theta = 2 * math.atan(diameter/(2 * distance))
+    return math.degrees(theta)
 
 def remove_collision(drops, trees):
     # if it's hard to get to a drop point without crashing, then better just avoid it
@@ -158,20 +160,23 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees):
     nearest = min(trees)
     # the find_closest2 function is now half redundant
     x_near, y_near = find_closest2(trees)
+
     #[x,y] components of resultant velocity from forward movement and wind
     actual_velocity = current_velocity(wind_vector_x,wind_vector_y)
+
     # [magnitude, angle] components of resultant velocity from wind and fwd movement
     act_vel_polar = convert_to_polar(actual_velocity[0],actual_velocity[1])
     numtree_samples = len(trees)
 
     # if the nearest tree is pretty close, avoid it
+    # this is wrong
     neardist = distance(x_near, y_near)
-    seconddist = distance(velocity[0],velocity[1]) # distance can travel in 1 second
+    seconddist = distance(actual_velocity[0],actual_velocity[1]) # distance can travel in 1 second
     if ( neardist < (2 * seconddist) ):
-        if nearest[0] >= 0:
-            y = 20 # totally arbitrary yes there is a less jerky way to do this
+        if nearest[1] >= 0:
+            y = 30 # totally arbitrary yes there is a less jerky way to do this
         else:
-            y = -20
+            y = -30
         return y
 
     # else look for clusters (could be several trees or multiple lidar from
@@ -237,14 +242,14 @@ def parse_telem(telem_bin):
     timestamp, recovery_x, wind_x, wind_y, recovery_y, *lidar_samples = zs.TELEMETRY_STRUCT.unpack(telem_bin)
     return timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples
 
-def go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg):
+def go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg, prior_trees):
     # if recovery_distance is close, GO THERE EVEN IF ALL PACKAGES NOT DROPPED
     # if already dropped 10 packages, head to recovery center
     # avoid trees
     # find where the trees are and where delivery sites are that
     # drops and trees are lists of tuples with distance and angle
 
-    drops, trees = checklidar(lidar_samples)
+    drops, trees = checklidar(lidar_samples, prior_trees)
     # if the recovery distance is close, then head there, avoiding trees
     recovery_dist = distance(recovery_x, recovery_y)
     if (recovery_dist < 250):
@@ -259,7 +264,7 @@ def go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, l
         # if the coast is clear to go to this point:
         desired_y = target_velocity(wind_x, wind_y, drop_x, drop_y)
         # decide whether the drop point is close enough to command a drop
-        dropnow(wind_x, wind_y, drop_x, drop_y, timestamp, last_dropped, drop_pkg)
+        drop_pkg = dropnow(wind_x, wind_y, drop_x, drop_y, timestamp, last_dropped, drop_pkg)
 
     # if there is no course for a drop point without a tree in the way, check
     # to see if a tree should be avoided
@@ -271,13 +276,12 @@ def go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, l
             # desired y be the opposite of the wind vector_y component
             desired_y = -wind_y
 
-
     # desired_y can only be in the parameters of what the game allows
     if (desired_y > 30):
         desired_y = 30
     elif(desired_y < -30):
         desired_y = -30
-    return desired_y
+    return desired_y, drop_pkg, trees
 
 def dropnow(wind_x, wind_y, drop_x, drop_y, timestamp, last_dropped, drop_pkg):
     vehicle_velocity = current_velocity(wind_x, wind_y)
@@ -297,6 +301,11 @@ def dropnow(wind_x, wind_y, drop_x, drop_y, timestamp, last_dropped, drop_pkg):
     # Range = speed * time of flight and time of flight is defined as 0.5
     fallrange = speed * 0.5
     if(abs(fallrange-distance(drop_x, drop_y)) < 1.5):
+        # edge case is that when there is a tree on the very edge, package is
+        # being dropped
+        # either this shouldn't be put in "maybe_drop point" or need to test
+        # for that situation here
+
         # we don't want to drop 2 packages in same drop area, I figure that
         # if the vehicle is moving forward 30m/s and the drop zone is 10m
         # diameter, then 1 second later the vehicle wouldn't be in the same
@@ -304,3 +313,4 @@ def dropnow(wind_x, wind_y, drop_x, drop_y, timestamp, last_dropped, drop_pkg):
         # forth could make this assumption incorrect
         if(timestamp - last_dropped > 1000):
             drop_pkg = 1
+    return drop_pkg

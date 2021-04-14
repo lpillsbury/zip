@@ -103,6 +103,7 @@ PARALANDED = 1
 CRASHED = 2
 SIM_QUIT = 3
 
+prior_trees = []
 
 def load_image(name):
     return pygame.image.load(os.path.join(os.path.dirname(__file__), "art", name))
@@ -433,9 +434,10 @@ if __name__ == "__main__":
                 a_vel = current_velocity(wind_vector_x, wind_vector_y)
                 a_vel_polar = convert_to_polar(a_vel[0], a_vel[1])
                 print("actual velocity: ", a_vel, " ", a_vel_polar)
-                droplist, treelist = checklidar(lidar_samples)
+                droplist, treelist = checklidar(lidar_samples, prior_trees)
                 print("droplist: ", droplist)
                 print("treelist: ", treelist)
+                prior_trees = treelist
 
                 if droplist:
                     drop_x, drop_y = find_closest2(droplist)
@@ -445,15 +447,17 @@ if __name__ == "__main__":
                     #desired_y = target_velocity(wind_vector_x, wind_vector_y, drop_x, drop_y)
                     # decide whether the drop point is close enough to command a drop
                     #dropnow(wind_vector_x, wind_vector_y, drop_x, drop_y, timestamp)
-                desired_y = go_where(timestamp, recovery_x_error, wind_vector_x, wind_vector_y, recovery_y_error, lidar_samples)
-                print("desired y: ", desired_y)
-                recovery_dist = distance(recovery_x_error, recovery_y_error)
+                # desired_y = go_where(timestamp, recovery_x_error, wind_vector_x, wind_vector_y, recovery_y_error, lidar_samples)
+                # print("desired y: ", desired_y)
+                # recovery_dist = distance(recovery_x_error, recovery_y_error)
                 # sendpkt(timestamp, desired_y)
 
                 print("\n\n")
                 print("command struct received: \n")
                 print(COMMAND_STRUCT.unpack(cmd))
                 print("")
+                if(drop_package_commanded_byte == 1):
+                    print("DROPPING PACKAGE NOW!!!!")
 
         elif not headless:
             keys = pygame.key.get_pressed()

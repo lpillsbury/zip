@@ -10,8 +10,8 @@
 # other subprograms if that was simpler for code reuse.
 # Functions for calculations for command decisions are stored in packetmath.py
 
-
-import zip_sim as zs
+# TODO: change to import zip_sim
+import zip_sim_modif as zs
 import struct
 import sys
 from packetmath import *
@@ -61,6 +61,7 @@ def sendpkt (timestamp, lateral_airspeed, last_dropped, drop_pkg, number_dropped
         number_dropped +=1
         last_dropped = timestamp
         drop_pkg = 0
+    return drop_pkg, last_dropped, number_dropped
 
 # when not debug put parse_telem here
 
@@ -74,16 +75,18 @@ def main():
     number_dropped = 0
     # command of whether or not to drop the next package. 0 means don't drop, 1 drop
     drop_pkg = 0
-
+    prior_trees = []
     # create a loop to receive packet, decide what to do with the info and
     # send a command back every 1/60th of a second (game time not real time)
     while True: # what is the actual while condition here?
+
         telem_b = receivepkt()
         timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples = parse_telem(telem_b)
         # if the recovery distance is close, go there, else go to the next drop, avoiding trees
-        desired_y = go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg)
-        sendpkt(timestamp, desired_y, last_dropped, drop_pkg, number_dropped)
+        desired_y, drop_pkg, prior_trees = go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg, prior_trees)
+        drop_pkg, last_dropped, number_dropped = sendpkt(timestamp, desired_y, last_dropped, drop_pkg, number_dropped)
 
+            #sys.exit(1)
 
 if __name__=="__main__":
     main()
