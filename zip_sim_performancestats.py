@@ -6,6 +6,7 @@ import sys
 import subprocess
 import struct
 import pandas as pd
+import datetime
 
 from packetmath import *
 
@@ -329,13 +330,12 @@ if __name__ == "__main__":
     random.seed(args.seed)
     headless = args.headless
     api_mode = len(args.pilot) > 0
-    num_runs = 0
     num_trees = 0
-    # list to keep track of runs. Keep track of run number, number of trees, windspeed_vector, number of deliveries, ZIPPA violations
+    # list to keep track of runs. Keep track of run number, number of trees, number of deliveries, ZIPPA violations
     run_stats = []
     # filepath for where to save performance Data
     file = 'performancestats on ' + str(datetime.datetime.now()) + '.csv'
-    for num_runs in range 100:
+    for num_runs in range (0,100):
         if (num_runs%10 == 0):
             num_trees += 10
 
@@ -549,6 +549,6 @@ if __name__ == "__main__":
             pilot.stdout.close()
             pilot.wait()
 
-        run_stats.append([num_runs, num_trees, windspeed_vector, len(package_count_by_site),sum((x - 1 for x in package_count_by_site.values() if x > 1))])
-    run_stats_df = pd.DataFrame(data, columns=['NumRuns', 'NumTrees', 'Windspeed', 'PackagesDropped', 'ZIPAA violations'])
-    df.to_csv(file, index = False, header = True)
+        run_stats.append([num_runs, num_trees, len(package_count_by_site),sum((x - 1 for x in package_count_by_site.values() if x > 1))])
+    run_stats_df = pd.DataFrame(run_stats, columns=['NumRuns', 'NumTrees', 'PackagesDropped', 'ZIPAA violations'])
+    run_stats_df.to_csv(file, index = False, header = True)

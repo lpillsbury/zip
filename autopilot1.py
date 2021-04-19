@@ -79,14 +79,14 @@ def main():
     # create a loop to receive packet, decide what to do with the info and
     # send a command back every 1/60th of a second (game time not real time)
     while True: # what is the actual while condition here?
-
-        telem_b = receivepkt()
-        timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples = parse_telem(telem_b)
-        # if the recovery distance is close, go there, else go to the next drop, avoiding trees
-        desired_y, drop_pkg, prior_trees = go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg, prior_trees)
-        drop_pkg, last_dropped, number_dropped = sendpkt(timestamp, desired_y, last_dropped, drop_pkg, number_dropped)
-
-            #sys.exit(1)
+        try:
+            telem_b = receivepkt()
+            timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples = parse_telem(telem_b)
+            # if the recovery distance is close, go there, else go to the next drop, avoiding trees
+            desired_y, drop_pkg, prior_trees = go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg, prior_trees)
+            drop_pkg, last_dropped, number_dropped = sendpkt(timestamp, desired_y, last_dropped, drop_pkg, number_dropped)
+        except:
+            sys.exit(1)
 
 if __name__=="__main__":
     main()
