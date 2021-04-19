@@ -67,6 +67,7 @@ def checklidar(lidar_samples, prior_trees):
                 # as get in closer range, sometimes things that were known trees
                 # get mislabeled as drop_points. try to avoid this
                 # check to see if the same angle was listed as a tree angle before
+
                 istree = False
                 for pt in prior_trees:
                     if(pt[1] == angle):
@@ -75,7 +76,11 @@ def checklidar(lidar_samples, prior_trees):
                 if istree == True:
                     tree.append((lidar_samples[i],angle))
                 else:
-                    mayb_drop_point.append(((lidar_samples[i],angle)))
+                    # only consider a close lidar a drop point if approaching it head on
+                    # this could leave some out, but it's better than making a drop
+                    # near a tree
+                    if(abs(angle) <=5):
+                        mayb_drop_point.append(((lidar_samples[i],angle)))
             else:
                 tree.append((lidar_samples[i],angle))
     # if drop point and tree list are not empty then remove drop points that
@@ -168,6 +173,7 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees):
     act_vel_polar = convert_to_polar(actual_velocity[0],actual_velocity[1])
     numtree_samples = len(trees)
 
+    '''
     # if the nearest tree is pretty close, avoid it
     # this is wrong
     neardist = distance(x_near, y_near)
@@ -182,34 +188,35 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees):
     # else look for clusters (could be several trees or multiple lidar from
     # same tree) and avoid them
     else:
-        range_to_avoid = []
-        for i in range(numtree_samples):
-            for j in range(numtree_samples):
-                if (i == j):
-                    continue
-                else:
-                    # calculate the difference in angles between the trees
-                    diff_angle = abs(trees[i][1] - trees[j][1])
-                    if(diff_angle < 3):
-                        for angle in range(trees[i][1], trees[j][1]):
-                            range_to_avoid.append(angle)
+    '''
+    range_to_avoid = []
+    for i in range(numtree_samples):
+        for j in range(numtree_samples):
+            if (i == j):
+                continue
+            else:
+                # calculate the difference in angles between the trees
+                diff_angle = abs(trees[i][1] - trees[j][1])
+                if(diff_angle < 3):
+                    for angle in range(trees[i][1], trees[j][1]):
+                        range_to_avoid.append(angle)
 
-        if (range_to_avoid):
-            # how do I avoid the things I want to avoid?
-            range_to_avoid.sort()
-            desired_angle = act_vel_polar[1]
-            for a in range_to_avoid:
-                while(abs(a-desired_angle) < 2):
-                    # if the current direction is similar to the range to avoid, need to change course
-                    if desired_angle >= 0:
-                        desired_angle += 1
-                    if desired_angle < 0:
-                        desired_angle -= 1
-            # now we have a desired angle way forward, convert that to desired_y
-            desired_x, desired_y = convert_to_cartesian(act_vel_polar[0], desired_angle)
-            return desired_y
-        else:
-            return 0
+    if (range_to_avoid):
+        # how do I avoid the things I want to avoid?
+        range_to_avoid.sort()
+        desired_angle = act_vel_polar[1]
+        for a in range_to_avoid:
+            while(abs(a-desired_angle) < 2):
+                # if the current direction is similar to the range to avoid, need to change course
+                if desired_angle >= 0:
+                    desired_angle += 1
+                if desired_angle < 0:
+                    desired_angle -= 1
+        # now we have a desired angle way forward, convert that to desired_y
+        desired_x, desired_y = convert_to_cartesian(act_vel_polar[0], desired_angle)
+        return desired_y
+    else:
+        return 0
 
 def find_closest2(objs):
     # this function receives magnitude/angle pairs of drop point or tree objects

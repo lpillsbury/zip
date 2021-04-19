@@ -363,8 +363,11 @@ if __name__ == "__main__":
     # Randomly generate trees that aren't too close to delivery sites.
     trees = []
     tree_density = random.gauss(TYPICAL_NUM_TREES, MAX_NUM_TREES / 3)
+    '''
     num_trees = round(min(MAX_NUM_TREES, tree_density) if tree_density >= TYPICAL_NUM_TREES
                       else random.triangular(0, TYPICAL_NUM_TREES, TYPICAL_NUM_TREES))
+    '''
+    num_trees = 99
     for _ in range(num_trees):
         while True:
             # Round the position to the nearest tenth of a meter. This keeps the sprites from jumping around while
