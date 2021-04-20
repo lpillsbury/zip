@@ -173,22 +173,20 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees):
     act_vel_polar = convert_to_polar(actual_velocity[0],actual_velocity[1])
     numtree_samples = len(trees)
 
-    '''
+
     # if the nearest tree is pretty close, avoid it
     # this is wrong
     neardist = distance(x_near, y_near)
     seconddist = distance(actual_velocity[0],actual_velocity[1]) # distance can travel in 1 second
-    if ( neardist < (2 * seconddist) ):
-        if nearest[1] >= 0:
-            y = 30 # totally arbitrary yes there is a less jerky way to do this
-        else:
-            y = -30
+    if (numtree_samples > 25):
+        y = 30 # totally arbitrary yes there is a less jerky way to do this
         return y
 
     # else look for clusters (could be several trees or multiple lidar from
     # same tree) and avoid them
-    else:
-    '''
+
+
+
     range_to_avoid = []
     for i in range(numtree_samples):
         for j in range(numtree_samples):
@@ -202,20 +200,35 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees):
                         range_to_avoid.append(angle)
 
     if (range_to_avoid):
-        # how do I avoid the things I want to avoid?
+        num_neg_angles = sum(i<0 for i in range_to_avoid)
+        num_pos_angles = sum(i>0 for i in range_to_avoid)
         range_to_avoid.sort()
+        # if there are the same number of positive and negative angles in the
+        # range to avoid, then desired angle would be straight on, this doesn't work
+        # when all angles are in range to avoid
+        # so if all angles should be avoided, just bear hard left (arbitrary choice)
+        '''
+        # NOT WORKING
+        if (num_neg_angles == num_pos_angles):
+            desired_y = 30
+            return desired_y
+        '''
+        # start by assuming desired is the way I'm already going
         desired_angle = act_vel_polar[1]
         for a in range_to_avoid:
             while(abs(a-desired_angle) < 2):
                 # if the current direction is similar to the range to avoid, need to change course
-                if desired_angle >= 0:
+                # making <= a rather than 0 made it worse
+                # but I think this is part of the problem
+                if desired_angle >= a:
                     desired_angle += 1
-                if desired_angle < 0:
+                if desired_angle < a:
                     desired_angle -= 1
         # now we have a desired angle way forward, convert that to desired_y
         desired_x, desired_y = convert_to_cartesian(act_vel_polar[0], desired_angle)
         return desired_y
     else:
+        # if there is nothing to avoid, return 0
         return 0
 
 def find_closest2(objs):

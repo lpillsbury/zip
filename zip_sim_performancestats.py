@@ -7,9 +7,11 @@ import subprocess
 import struct
 import pandas as pd
 import datetime
+import time
 
 from packetmath import *
 
+start_time = time.time()
 # Suppress hello from pygame so that stdout is clean
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame  # noqa
@@ -331,11 +333,13 @@ if __name__ == "__main__":
     headless = args.headless
     api_mode = len(args.pilot) > 0
     num_trees = 0
-    # list to keep track of runs. Keep track of run number, number of trees, number of deliveries, ZIPPA violations
+    # list to keep track of runs. Keep track of run number, number of trees, number of deliveries, ZIPPA violations, whether it crashed
     run_stats = []
     # filepath for where to save performance Data
     file = 'performancestats on ' + str(datetime.datetime.now()) + '.csv'
     for num_runs in range (0,100):
+        # default is vehicle landed. update to "CRASHED if it did"
+        result = "landed"
         if (num_runs%10 == 0):
             num_trees += 10
 
@@ -549,6 +553,8 @@ if __name__ == "__main__":
             pilot.stdout.close()
             pilot.wait()
 
-        run_stats.append([num_runs, num_trees, len(package_count_by_site),sum((x - 1 for x in package_count_by_site.values() if x > 1))])
-    run_stats_df = pd.DataFrame(run_stats, columns=['NumRuns', 'NumTrees', 'PackagesDropped', 'ZIPAA violations'])
+        run_stats.append([num_runs, num_trees, len(package_count_by_site),sum((x - 1 for x in package_count_by_site.values() if x > 1)), result])
+    run_stats_df = pd.DataFrame(run_stats, columns=['NumRuns', 'NumTrees', 'PackagesDropped', 'ZIPAAViolations', 'Result'])
     run_stats_df.to_csv(file, index = False, header = True)
+    end_time = time.time()
+    print("elapsed time for ", num_runs +1 , " runs is: ", (end_time - start_time)/60, " minutes")
