@@ -227,3 +227,20 @@ def checklidar(lidar_samples):
     # if tree list or mayb_drop_point is empty, it's fine, an empty list will be returned
     # is there any reason why this should be an empty list of tuples?
     return(mayb_drop_point, tree)
+
+def time_to_target(target_dist):
+    # given the distance to target and the current velocity,
+    # find how long it would take to get there ie delta_t
+    global velocity
+    speed = distance(velocity[0], velocity[1])
+    # find number of seconds it would take to get to the target
+    delta_t = target_dist * 1/speed
+    return delta_t
+
+def find_closest2(objs):
+    # this function receives magnitude/angle pairs of drop point or tree objects
+    # and returns the x, y coordinates of the closest one in the set
+
+    min_of_set = min(objs)
+    x,y = convert_to_cartesian(min_of_set[0], min_of_set[1])
+    return x,y

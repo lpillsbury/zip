@@ -78,10 +78,10 @@ def go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, l
     recovery_dist = pm.distance(recovery_x, recovery_y)
     if (recovery_dist < 250):
         if(trees):
-            desired_y = avoid_tree(wind_x, wind_y, trees)
+            desired_y = avoid_tree(wind_x, wind_y, trees, my_velocity)
         else:
             mag, theta = pm.convert_to_polar(recovery_x, recovery_y)
-            desired_y = pm.target_velocity(wind_x, wind_y, theta, my_velocity)
+            desired_y = target_velocity(wind_x, wind_y, theta, my_velocity)
     # find the closest drop point if there are drop points:
     elif drops:
         drop_pt = min(drops)
@@ -202,12 +202,14 @@ def checklidar(lidar_samples, prior_trees):
                         break
                 if istree == True:
                     tree.append((lidar_samples[i],angle))
+                '''
                 else:
                     # only consider a close lidar a drop point if approaching it head on
                     # this could leave some out, but it's better than making a drop
                     # near a tree
                     if(abs(angle) <=5):
                         mayb_drop_point.append(((lidar_samples[i],angle)))
+                '''
             else:
                 tree.append((lidar_samples[i],angle))
     # if drop point and tree list are not empty then remove drop points that
@@ -249,14 +251,16 @@ def target_velocity(wind_x,wind_y, desired_angle, my_velocity):
     #         * sin(desired_angle) - (wind vector dot velocity)/(magnitude velocity)
     # set magnitude to travel to 1m since with no wind and no lateral airspeed,
     # would be traveling 0.5 m/timestep
-
+    '''
     timestep = 1.0 # size of timestep in seconds
     magnitude_v = pm.distance(my_velocity[0],my_velocity[1])
     p = 0.3 # experimentally determined proportionality constant
 
     vel_y = ((1 * p / timestep) * math.sin(math.radians(desired_angle))
         + ((wind_x * my_velocity[0] + wind_y * my_velocity[1])/magnitude_v))
-
+    '''
+    y_noadj = -30 * math.tan(math.radians(desired_angle))
+    vel_y = y_noadj - wind_y
     return vel_y
 
 def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
@@ -268,7 +272,14 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
     # make a list of angles where trees are:
     # only include trees 150 m or closer
     tree_angles = [x[1] for x in trees if x[0]<150]
-    close_trees = [x[0] for x in trees if x[0]<150]
+    close_tree_dists = [x[0] for x in trees if x[0]<150]
+    # if there are no close trees, nothing to avoid
+    if(tree_angles == []):
+        desired_angle = 0
+        desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
+        return desired_y
+
+    # if here, then there are close trees
     # want to find the largest gap within entire lidar range, not just
     # tree_angles which is probably a subset of the lidar range, so impose boundaries
     # at -16 and 16
@@ -279,17 +290,12 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
     # for travel if it is 3 degrees or wider
     # travel to the widest gap
     angle_gaps = abs(np.diff(tree_angles))
-    if (max(angle_gaps > 2) and (min(close_trees) > 8) ):
-        # index of the largest gap
-        angle_gap_ind = np.argmax(angle_gaps)
-        # angle endpoints of the largest gap
-        gap_max_angle = tree_angles[angle_gap_ind]
-        gap_min_angle = tree_angles[angle_gap_ind + 1]
-        desired_angle = math.ceil((gap_max_angle - gap_min_angle)/2) + gap_min_angle
+    # this is the "oh shit something is close avoid it" case:
     # if there is no gap big enough to travel through between -15 and 15 degrees,
-    # default to desired_angle = -40 degrees (if this requires a bigger lateral
+    # default to desired_angle = +-60 degrees (if this requires a bigger lateral
     # velocity than allowed, it will be cut off later)
-    else:
+
+    if(max(angle_gaps) <= 2 or sum(close_tree_dists)/len(close_tree_dists) < 8):
         # need to avoid the whole lidar range
         pos_angles = sum(x > 0 for x in tree_angles)
         neg_angles = sum(x <= 0 for x in tree_angles)
@@ -297,6 +303,16 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
             desired_angle = -60
         else:
             desired_angle = 60
+        desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
+        return desired_y
+
+    #assuming there are things to avoid, can get through, and not "oh shit trees here"
+    # index of the largest gap
+    angle_gap_ind = np.argmax(angle_gaps)
+    # angle endpoints of the largest gap
+    gap_max_angle = tree_angles[angle_gap_ind]
+    gap_min_angle = tree_angles[angle_gap_ind + 1]
+    desired_angle = math.ceil((gap_max_angle - gap_min_angle)/2) + gap_min_angle
     desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
     return desired_y
 
