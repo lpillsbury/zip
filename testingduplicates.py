@@ -1,68 +1,13 @@
-#!/usr/bin/env python3
-# autopilot1.py
-# Autopilot API to go with zip_sim.py
-#
-# Copyright 2021 Leah Pillsbury leahp@bu.edu
-#
-# This program communicates with zip_sim, receiving telemetry packets and
-# sending command packets.
-# Command decisions are made within this program and could be made within
-# other subprograms if that was simpler for code reuse.
-# Functions for calculations for command decisions are stored in packetmath.py
-
-# TODO: change to import zip_sim in packetmath
-# import packetcomms as pc
-import packetmath as pm
-import math
 import numpy as np
+import math
+import packetmath as pm
 
-
-'''
-Controlled in this autopilot program:
-    1) vehicle speed
-    2) vehicle heading
-    3) when a package is dropped
-    4) communication with zip_sim.py using sys.stdin and sys.stdout
-       pipes that are defined in zip_sim.py
-'''
-
-import zip_sim_modif as zs
-import struct
-import sys
-
-# stdin and stdout go straight to the zip_sim.py program
-recd_telem = sys.stdin
-send_cmd = sys.stdout
-
-# Constant Packet Sizes
-# size of the telemetry struct packet to receive, should be 44 bytes
-TP_SIZE = zs.TELEMETRY_STRUCT.size
-# size of the command struct packet to send, should be 8 bytes
-CP_SIZE = zs.COMMAND_STRUCT.size
-
-
-def receivepkt ():
-    # receive a packet that is the size of the telemetry packet in bytes
-    telempkt = recd_telem.buffer.raw.read(TP_SIZE)
-    return telempkt
-
-def sendpkt (timestamp, lateral_airspeed, last_dropped, drop_pkg, number_dropped):
-    # send a command packet that is the command packet size and contains
-    # lateral_airspeed, drop_package_commanded, and 3 bytes of padding
-    command = zs.COMMAND_STRUCT.pack(float(lateral_airspeed), drop_pkg, bytes(3))
-    # I don't know how Python does it, but send_cmd.write() doesn't work
-    send_cmd.buffer.raw.write(command)
-
-    # if a package was dropped, increment the number dropped counter
-    # reset the drop_pkg variable back to 0
-    # record the current timestamp when drop_pkg was commanded so that
-    # don't do that again immediately. (is there a way to record where the
-    # vehicle is on drop?)
-    if drop_pkg == 1:
-        number_dropped +=1
-        last_dropped = timestamp
-        drop_pkg = 0
-    return drop_pkg, last_dropped, number_dropped
+def current_velocity(wind_x, wind_y, last_desired_y, my_velocity, velocity_adjusted):
+    # sets the vehicle's current velocity and wind adjusted velocity
+    my_velocity[1] = last_desired_y
+    velocity_adjusted[0] = my_velocity[0] + wind_x
+    velocity_adjusted[1] = my_velocity[1] + wind_y
+    return my_velocity, velocity_adjusted
 
 # TODO fix this
 def target_velocity(wind_x,wind_y, desired_angle, my_velocity):
@@ -75,11 +20,11 @@ def target_velocity(wind_x,wind_y, desired_angle, my_velocity):
     # set magnitude to travel to 1m since with no wind and no lateral airspeed,
     # would be traveling 0.5 m/timestep
 
-    timestep = 1.0 # size of timestep in seconds
-    magnitude_v = pm.distance(my_velocity[0],my_velocity[1])
-    p = 0.5 # experimentally determined proportionality constant
+    timestep = 1/60 # size of timestep in seconds
+    magnitude_v = pm.distance(my_velocity[0],my_velocity[1]) * timestep
+    p = 20 # experimentally determined proportionality constant
 
-    vel_y = ((1 * p / timestep) * -math.sin(math.radians(desired_angle))
+    vel_y = ((1 * p / timestep) * math.sin(math.radians(desired_angle))
         - ((wind_x * my_velocity[0] + wind_y * my_velocity[1])/magnitude_v))
 
 
@@ -263,19 +208,11 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
     # this function only gets called when there are trees
     # when there is no path, then head away from the 30 degree field of view
     # [magnitude, angle] components of resultant velocity from wind and fwd movement
+    numtree_samples = len(trees)
 
     # make a list of angles where trees are:
     # only include trees 150 m or closer
     tree_angles = [x[1] for x in trees if x[0]<150]
-    # because I'm only worrying about nearby trees, the list of tree angles
-    # could be 1 or no elements
-    if(len(tree_angles) < 2):
-        if(len(tree_angles) == 1):
-            desired_angle = 10 - tree_angles[0] #this is an arbitrary choice
-        elif(len(tree_angles == 0)):
-            desired_angle = 0
-        desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
-        return desired_y
 
     #take differences of angles between tree elements. a gap is only useful
     # for travel if it is 3 degrees or wider
@@ -292,51 +229,6 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
     # default to desired_angle = -40 degrees (if this requires a bigger lateral
     # velocity than allowed, it will be cut off later)
     else:
-        # need to avoid the whole lidar range
-        pos_angles = sum(x > 0 for x in tree_angles)
-        neg_angles = sum(x <= 0 for x in tree_angles)
-        if(pos_angles > neg_angles):
-            desired_angle = -60
-        else:
-            desired_angle = 60
+        desired_angle = -40
     desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
     return desired_y
-
-def main():
-    # timestamp of the last dropped package. Initialize to -1 when game starts
-    last_dropped = -1000
-    # number of packages already dropped. increment to 10 and
-    # head to recovery site if all payloads are dropped
-    number_dropped = 0
-    # command of whether or not to drop the next package. 0 means don't drop, 1 drop
-    drop_pkg = 0
-    prior_trees = []
-    # fwd x velocity is constant, y value will be modified throughout the program
-    # this is the lateral and forward velocity that I am controlling
-    my_velocity = [30.0,0.0]
-    # velocity adjusted for wind speed. This will also change throughout the
-    # program as windspeed changes
-    # create a loop to receive packet, decide what to do with the info and
-    # send a command back every 1/60th of a second (game time not real time)
-    while True: # what is the actual while condition here?
-        # try:
-        telem_b = receivepkt()
-        timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples = pm.parse_telem(telem_b)
-        # calculate the current adjusted velocity based on windspeed/ fwd/lateral velocity
-        velocity_adjusted = pm.current_velocity(wind_x, wind_y, my_velocity)
-        # if the recovery distance is close, go there, else go to the next drop, avoiding trees
-        desired_y, drop_pkg, prior_trees = go_where(timestamp, recovery_x,
-         wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg,
-         prior_trees, my_velocity, velocity_adjusted)
-
-        # send a packet with desired lateral velocity, keep track of whether to drop package
-        drop_pkg, last_dropped, number_dropped = sendpkt(timestamp, desired_y,
-         last_dropped, drop_pkg, number_dropped)
-        # update the y component of the velocity vector based on what was sent
-        # in the telem packet. x component never changes
-        my_velocity[1] = desired_y
-        # except:
-        #    sys.exit(1)
-
-if __name__=="__main__":
-    main()
