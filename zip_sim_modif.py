@@ -285,27 +285,31 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
 
     # only include trees 150 m or closer
     tree_angles = [x[1] for x in trees if x[0]<150]
+    close_trees = [x[0] for x in trees if x[0]<150]
     # because I'm only worrying about nearby trees, the list of tree angles
     # could be 1 or no elements
-    if(len(tree_angles) < 2):
-        if(len(tree_angles) == 1):
-            desired_angle = 10 - tree_angles[0] #this is an arbitrary choice
-        elif(len(tree_angles == 0)):
-            desired_angle = 0
-        desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
-        return desired_y
+
+    # want to find the largest gap within entire lidar range, not just
+    # tree_angles which is probably a subset of the lidar range, so impose boundaries
+    # at -16 and 16
+    tree_angles.insert(0,16)
+    tree_angles.append(-16)
+    print("tree angles: ", tree_angles)
 
     #take differences of angles between tree elements. a gap is only useful
     # for travel if it is 3 degrees or wider
     # travel to the widest gap
     angle_gaps = abs(np.diff(tree_angles))
-    if max(angle_gaps > 2):
+    print("angle_gaps: ", angle_gaps)
+    if (max(angle_gaps > 2) and (min(close_trees) > 8) ):
         # index of the largest gap
         angle_gap_ind = np.argmax(angle_gaps)
         # angle endpoints of the largest gap
         gap_max_angle = tree_angles[angle_gap_ind]
         gap_min_angle = tree_angles[angle_gap_ind + 1]
         desired_angle = math.ceil((gap_max_angle - gap_min_angle)/2) + gap_min_angle
+        print("gap max: ", gap_max_angle, " gap min: ", gap_min_angle)
+        print("desired angle: ", desired_angle)
     # if there is no gap big enough to travel through between -15 and 15 degrees,
     # default to desired_angle = -40 degrees (if this requires a bigger lateral
     # velocity than allowed, it will be cut off later)
@@ -338,10 +342,10 @@ def target_velocity(wind_x,wind_y, desired_angle, my_velocity):
     print("timestep: ", timestep)
     magnitude_v = pm.distance(my_velocity[0],my_velocity[1])
     print("magnitude of my_velocity: ", magnitude_v)
-    p = 1# experimentally determined proportionality constant
+    p = 0.3# experimentally determined proportionality constant
 
-    vel_y = ((1 * p / timestep) * -math.sin(math.radians(desired_angle))
-        - ((wind_x * my_velocity[0] + wind_y * my_velocity[1])/magnitude_v))
+    vel_y = ((1 * p / timestep) * math.sin(math.radians(desired_angle))
+         + ((wind_x * my_velocity[0] + wind_y * my_velocity[1])/magnitude_v))
     print("vel_y: ", vel_y)
 
     return vel_y

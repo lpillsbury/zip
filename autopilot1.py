@@ -64,26 +64,7 @@ def sendpkt (timestamp, lateral_airspeed, last_dropped, drop_pkg, number_dropped
         drop_pkg = 0
     return drop_pkg, last_dropped, number_dropped
 
-# TODO fix this
-def target_velocity(wind_x,wind_y, desired_angle, my_velocity):
-    # given the current wind speed, the desired angle of travel,
-    # and the current velocity (global)
-    # compute the y component of the new desired velocity vector
-    # note: the x component never changes
-    # vel_y = proportionality constant * (magnitude to travel/size timestep)
-    #         * sin(desired_angle) - (wind vector dot velocity)/(magnitude velocity)
-    # set magnitude to travel to 1m since with no wind and no lateral airspeed,
-    # would be traveling 0.5 m/timestep
 
-    timestep = 1.0 # size of timestep in seconds
-    magnitude_v = pm.distance(my_velocity[0],my_velocity[1])
-    p = 0.5 # experimentally determined proportionality constant
-
-    vel_y = ((1 * p / timestep) * -math.sin(math.radians(desired_angle))
-        - ((wind_x * my_velocity[0] + wind_y * my_velocity[1])/magnitude_v))
-
-
-    return vel_y
 
 def go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg, prior_trees, my_velocity, velocity_adjusted):
     # if recovery_distance is close, GO THERE EVEN IF ALL PACKAGES NOT DROPPED
@@ -258,6 +239,26 @@ def remove_collision(drops, trees):
     return drop_copy
     # now we should only have drop points that we theoretically can get to
 
+# TODO fix this
+def target_velocity(wind_x,wind_y, desired_angle, my_velocity):
+    # given the current wind speed, the desired angle of travel,
+    # and the current velocity (global)
+    # compute the y component of the new desired velocity vector
+    # note: the x component never changes
+    # vel_y = proportionality constant * (magnitude to travel/size timestep)
+    #         * sin(desired_angle) - (wind vector dot velocity)/(magnitude velocity)
+    # set magnitude to travel to 1m since with no wind and no lateral airspeed,
+    # would be traveling 0.5 m/timestep
+
+    timestep = 1.0 # size of timestep in seconds
+    magnitude_v = pm.distance(my_velocity[0],my_velocity[1])
+    p = 0.3 # experimentally determined proportionality constant
+
+    vel_y = ((1 * p / timestep) * math.sin(math.radians(desired_angle))
+        + ((wind_x * my_velocity[0] + wind_y * my_velocity[1])/magnitude_v))
+
+    return vel_y
+
 def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
     # avoid trees by choosing the widest path between them.
     # this function only gets called when there are trees
@@ -267,21 +268,18 @@ def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
     # make a list of angles where trees are:
     # only include trees 150 m or closer
     tree_angles = [x[1] for x in trees if x[0]<150]
-    # because I'm only worrying about nearby trees, the list of tree angles
-    # could be 1 or no elements
-    if(len(tree_angles) < 2):
-        if(len(tree_angles) == 1):
-            desired_angle = 10 - tree_angles[0] #this is an arbitrary choice
-        elif(len(tree_angles == 0)):
-            desired_angle = 0
-        desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
-        return desired_y
+    close_trees = [x[0] for x in trees if x[0]<150]
+    # want to find the largest gap within entire lidar range, not just
+    # tree_angles which is probably a subset of the lidar range, so impose boundaries
+    # at -16 and 16
+    tree_angles.insert(0,16)
+    tree_angles.append(-16)
 
     #take differences of angles between tree elements. a gap is only useful
     # for travel if it is 3 degrees or wider
     # travel to the widest gap
     angle_gaps = abs(np.diff(tree_angles))
-    if max(angle_gaps > 2):
+    if (max(angle_gaps > 2) and (min(close_trees) > 8) ):
         # index of the largest gap
         angle_gap_ind = np.argmax(angle_gaps)
         # angle endpoints of the largest gap
