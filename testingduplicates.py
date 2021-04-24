@@ -49,6 +49,7 @@ def go_where(timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples, l
     # find the closest drop point if there are drop points:
     elif drops:
         drop_pt = min(drops)
+        print("angle to drop point: ", drop_pt[1])
         # the returned drop point will be drop point without a tree in the way
         # if the coast is clear to go to this point:
         desired_y = target_velocity(wind_x, wind_y, drop_pt[1], my_velocity)
