@@ -333,24 +333,24 @@ def main():
     # create a loop to receive packet, decide what to do with the info and
     # send a command back every 1/60th of a second (game time not real time)
     while True: # what is the actual while condition here?
-        # try:
-        telem_b = receivepkt()
-        timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples = pm.parse_telem(telem_b)
-        # calculate the current adjusted velocity based on windspeed/ fwd/lateral velocity
-        velocity_adjusted = pm.current_velocity(wind_x, wind_y, my_velocity)
-        # if the recovery distance is close, go there, else go to the next drop, avoiding trees
-        desired_y, drop_pkg, prior_trees = go_where(timestamp, recovery_x,
-         wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg,
-         prior_trees, my_velocity, velocity_adjusted)
+        try:
+            telem_b = receivepkt()
+            timestamp, recovery_x, wind_x, wind_y, recovery_y, lidar_samples = pm.parse_telem(telem_b)
+            # calculate the current adjusted velocity based on windspeed/ fwd/lateral velocity
+            velocity_adjusted = pm.current_velocity(wind_x, wind_y, my_velocity)
+            # if the recovery distance is close, go there, else go to the next drop, avoiding trees
+            desired_y, drop_pkg, prior_trees = go_where(timestamp, recovery_x,
+             wind_x, wind_y, recovery_y, lidar_samples, last_dropped, drop_pkg,
+             prior_trees, my_velocity, velocity_adjusted)
 
-        # send a packet with desired lateral velocity, keep track of whether to drop package
-        drop_pkg, last_dropped, number_dropped = sendpkt(timestamp, desired_y,
-         last_dropped, drop_pkg, number_dropped)
-        # update the y component of the velocity vector based on what was sent
-        # in the telem packet. x component never changes
-        my_velocity[1] = desired_y
-        # except:
-        #    sys.exit(1)
+            # send a packet with desired lateral velocity, keep track of whether to drop package
+            drop_pkg, last_dropped, number_dropped = sendpkt(timestamp, desired_y,
+             last_dropped, drop_pkg, number_dropped)
+            # update the y component of the velocity vector based on what was sent
+            # in the telem packet. x component never changes
+            my_velocity[1] = desired_y
+        except:
+            sys.exit(1)
 
 if __name__=="__main__":
     main()
