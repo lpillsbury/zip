@@ -101,6 +101,7 @@ def find_closest2(drop_points):
     mindrop = min(drop_points, key = lambda t: t[1])
     x,y = convert_to_cartesian(mindrop[0], mindrop[1])
     return x,y
+
 def angle_list(indices):
     # takes a list of indices of lidar samples and converts them to angles
     # angles are defined as in angleheading: straight ahead is 0 and to the
@@ -125,3 +126,121 @@ def checksentpkt(lateral_airspeed, drop_pkg):
     #print("command to send back: ", command)
     #print("")
     #print("unpacked command: ", COMMAND_STRUCT.unpack(command))
+
+
+def checklidar(lidar_samples):
+    # I've noticed that delivery points usually don't have trees next to them.
+    # Is that always true?
+    # It seems like the next delivery point usually only has 1-3 lidar values in
+    # that range and nearby values are 0 or more than 10 different
+    # Trees often have 8-12 similar values nearby. (if a tree got pruned this might not work)
+    #
+    # Based on the assumptions above, this function returns the distance and
+    # degrees from the zip for the next package drop.
+    #
+    # what does it do if it finds a tree?
+
+    mayb_drop_point = []
+    tree = []
+    # make 2 lists: one of tuples of trees with distance/angles and one of drop_points
+    # if a point is more than 10 different from its neighbors, it's probably a drop point
+    # 10 is a somewhat arbitrary choice, but it seems to work
+    # if a point is non zero and near neighbors, it's probably a tree... unless it is
+    # quite close, and then it can be a drop point
+    for i in range (0,31):
+        if (lidar_samples[i] != 0):
+            # deal with first and last sample separately because they have one neighbor
+            # not two
+            if (i == 0 or i == 30):
+                # in this case where the first or last sample is a lot bigger than the next,
+                # we might have the edge of a tree, or a drop point. assume it's a
+                # drop point... if it's actually part of the tree, the drop point
+                # will be removed anyway in remove_collision
+                if (i == 0):
+                    if(abs(lidar_samples[i]-lidar_samples[i+1]) >= 10):
+                        d_val = (lidar_samples[i], angleheading(i))
+                        mayb_drop_point.append(d_val)
+                    else:
+                        continue
+                if (i == 30):
+                    if(abs(lidar_samples[i]-lidar_samples[i-1]) >= 10):
+                        d_val = (lidar_samples[i], angleheading(i))
+                        mayb_drop_point.append(d_val)
+                    else:
+                        continue
+
+            # check for drop points
+            elif (abs(lidar_samples[i]-lidar_samples[i-1]) >= 10 and abs(lidar_samples[i]-lidar_samples[i+1]) >= 10):
+                d_val = (lidar_samples[i], angleheading(i))
+                mayb_drop_point.append(d_val)
+
+            # for faraway points, a drop point lidar sample would be different from
+            # its neighbors. When approaching a drop point, more than 2 lidar samples
+            # can reflect off of same drop point. This happens
+            # when the zip is about 20m away and closer (angular diameter is 2.8 degrees).
+            # it is unlikely that a tree will also end up being under 20 m without already
+            # having been avoided, but it can happen when there are several trees
+            # near each other
+            elif(lidar_samples[i] <= 20):
+                # there has got to be a cleaner way to do this
+                # basically the issue is if there are 3 or less close samples under 20,
+                # it's a drop point, else its a tree that got too close
+                # so check to see how close the other lidar points are nearby
+                k = i
+                loopcount = 0
+                # count up
+                while(k > 0 and k < 31 and abs(lidar_samples[i]-lidar_samples[k]) < 3):
+                    k +=1
+                    loopcount += 1
+                # count down
+                k = i
+                while(k > 0 and k < 31 and abs(lidar_samples[i]-lidar_samples[k]) < 3):
+                    k -=1
+                    loopcount += 1
+                max_num_close_lidar = math.ceil(angle_diam(1,lidar_samples[i]))
+                if (loopcount < max_num_close_lidar):
+                    mayb_drop_point.append((lidar_samples[i],angleheading(i)))
+                else:
+                    tree.append((lidar_samples[i],angleheading(i)))
+
+            # If 2 points are close together, probably part of the same tree
+            # I'm not sure what the case should be if the difference in samples is
+            # between 3 and 10... these are arbitrary values I chose based on observation
+            elif(abs(lidar_samples[i]-lidar_samples[i-1]) <= 3):
+                # if the ith element is a tree, i - 1 is also
+                # if the i +1 element is also a tree, this will create duplicates
+                tree.append((lidar_samples[i-1],angleheading(i-1)))
+                tree.append((lidar_samples[i],angleheading(i)))
+
+    # get rid of duplicates in tree list (there should be a better way to not add duplicates in teh first place)
+    tree = list(set(tree))
+    # print("I think I am a tree: ", tree)
+    lidar_samples = np.array(lidar_samples)
+    # mayb_drop_point is a list. only proceed if list is not empty
+    if(mayb_drop_point):
+        # if drop points are near trees then avoid them (take them out of the list)
+        if(tree):
+            drop_points = remove_collision(mayb_drop_point,tree)
+            # print("I think I am a tree: ", tree)
+            # print("Deconflicted drop points: ", drop_points)
+            return(drop_points, tree)
+    # if tree list or mayb_drop_point is empty, it's fine, an empty list will be returned
+    # is there any reason why this should be an empty list of tuples?
+    return(mayb_drop_point, tree)
+
+def time_to_target(target_dist):
+    # given the distance to target and the current velocity,
+    # find how long it would take to get there ie delta_t
+    global velocity
+    speed = distance(velocity[0], velocity[1])
+    # find number of seconds it would take to get to the target
+    delta_t = target_dist * 1/speed
+    return delta_t
+
+def find_closest2(objs):
+    # this function receives magnitude/angle pairs of drop point or tree objects
+    # and returns the x, y coordinates of the closest one in the set
+
+    min_of_set = min(objs)
+    x,y = convert_to_cartesian(min_of_set[0], min_of_set[1])
+    return x,y

@@ -6,17 +6,9 @@ import sys
 import subprocess
 import struct
 
-import packetmath as pm
-from testingduplicates import go_where, dropnow, checklidar, remove_collision
-# import packetcomms as pc
-import numpy as np
-
 # Suppress hello from pygame so that stdout is clean
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame  # noqa
-
-# define DEBUG variable to output info to terminal
-DEBUG = True
 
 # The time step of the simulation. 60Hz is chosen to work well on most displays that are 60Hz.
 DT_SEC = 1 / 60.0
@@ -106,7 +98,6 @@ PARALANDED = 1
 CRASHED = 2
 SIM_QUIT = 3
 
-prior_trees = []
 
 def load_image(name):
     return pygame.image.load(os.path.join(os.path.dirname(__file__), "art", name))
@@ -274,87 +265,6 @@ class Terrain():
             for projected_pos in camera.project((x, 0.0)):
                 surface.blit(self._image, (projected_pos[0] - 250, projected_pos[1] - 1000))
 
-# functions from autopilot1 duplicated here for testing and printing purposes only
-
-
-def avoid_tree(wind_vector_x, wind_vector_y,trees, my_velocity):
-    # avoid trees by choosing the widest path between them.
-    # this function only gets called when there are trees
-    # when there is no path, then head away from the 30 degree field of view
-    # [magnitude, angle] components of resultant velocity from wind and fwd movement
-
-    # only include trees 150 m or closer
-    tree_angles = [x[1] for x in trees if x[0]<150]
-    close_tree_dists = [x[0] for x in trees if x[0]<150]
-    # because I'm only worrying about nearby trees, the list of tree angles
-    # could be 1 or no elements
-
-    if(tree_angles == []):
-        desired_angle = 0
-        desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
-        return desired_y
-
-
-    # want to find the largest gap within entire lidar range, not just
-    # tree_angles which is probably a subset of the lidar range, so impose boundaries
-    # at -16 and 16
-    tree_angles.insert(0,16)
-    tree_angles.append(-16)
-    print("tree angles: ", tree_angles)
-
-    #take differences of angles between tree elements. a gap is only useful
-    # for travel if it is 3 degrees or wider
-    # travel to the widest gap
-    angle_gaps = abs(np.diff(tree_angles))
-    print("angle_gaps: ", angle_gaps)
-    if(max(angle_gaps) <= 2 or sum(close_tree_dists)/len(close_tree_dists) < 8):
-        # need to avoid the whole lidar range
-        pos_angles = sum(x > 0 for x in tree_angles)
-        neg_angles = sum(x <= 0 for x in tree_angles)
-        if(pos_angles > neg_angles):
-            desired_angle = -60
-        else:
-            desired_angle = 60
-        desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
-        print("desired angle: ", desired_angle)
-        print("desired_y: ", desired_y)
-        return desired_y
-
-    #assuming there are things to avoid, can get through, and not "oh shit trees here"
-    # index of the largest gap
-    angle_gap_ind = np.argmax(angle_gaps)
-    # angle endpoints of the largest gap
-    gap_max_angle = tree_angles[angle_gap_ind]
-    gap_min_angle = tree_angles[angle_gap_ind + 1]
-    desired_angle = math.ceil((gap_max_angle - gap_min_angle)/2) + gap_min_angle
-    print("desired angle: ", desired_angle)
-    desired_y = target_velocity(wind_vector_x, wind_vector_y, desired_angle, my_velocity)
-    print("desired_y: ", desired_y)
-    return desired_y
-
-
-# TODO fix this
-def target_velocity(wind_x,wind_y, desired_angle, my_velocity):
-    # given the current wind speed, the desired angle of travel,
-    # and the current velocity (global)
-    # compute the y component of the new desired velocity vector
-    # note: the x component never changes
-    # vel_y = proportionality constant * (magnitude to travel/size timestep)
-    #         * sin(desired_angle) - (wind vector dot velocity)/(magnitude velocity)
-    # set magnitude to travel to 1m since with no wind and no lateral airspeed,
-    # would be traveling 0.5 m/timestep
-
-    '''
-    timestep = 1.0 # size of timestep in seconds
-    magnitude_v = pm.distance(my_velocity[0],my_velocity[1])
-    p = 0.3 # experimentally determined proportionality constant
-
-    vel_y = ((1 * p / timestep) * math.sin(math.radians(desired_angle))
-        + ((wind_x * my_velocity[0] + wind_y * my_velocity[1])/magnitude_v))
-    '''
-    y_noadj = -30 * math.tan(math.radians(desired_angle))
-    vel_y = y_noadj - wind_y
-    return vel_y
 
 def cast_lidar_ray(angle, circles):
     # First, find all circles the ray collides with by seeing if the ray's minimum distance is within the circle radius.
@@ -413,11 +323,6 @@ if __name__ == "__main__":
     headless = args.headless
     api_mode = len(args.pilot) > 0
 
-    # this is the lateral and forward velocity that I am controlling
-    my_velocity = [30.0,0.0]
-    # velocity adjusted for wind speed. This will also change throughout the
-    # program as windspeed changes
-
     if api_mode:
         pilot = subprocess.Popen(args.pilot, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
         loop_count = 0  # To count iterations to compute the telemetry timestamp
@@ -452,11 +357,8 @@ if __name__ == "__main__":
     # Randomly generate trees that aren't too close to delivery sites.
     trees = []
     tree_density = random.gauss(TYPICAL_NUM_TREES, MAX_NUM_TREES / 3)
-    '''
     num_trees = round(min(MAX_NUM_TREES, tree_density) if tree_density >= TYPICAL_NUM_TREES
                       else random.triangular(0, TYPICAL_NUM_TREES, TYPICAL_NUM_TREES))
-    '''
-    num_trees = 99
     for _ in range(num_trees):
         while True:
             # Round the position to the nearest tenth of a meter. This keeps the sprites from jumping around while
@@ -485,78 +387,27 @@ if __name__ == "__main__":
     num_packages = len(delivery_sites)
     # List of package objects that have been dropped
     dropped_packages = []
-    desired_y = 0
 
     while result is None:
         drop_package_commanded = False
         if api_mode:
-            if api_mode:
-                lidar_samples = cast_lidar(vehicle.position, lidar_objects)
-                pilot.stdin.write(TELEMETRY_STRUCT.pack(int(loop_count * DT_SEC * 1e3) & 0xFFFF,
-                                                        round(RECOVERY_X - vehicle.position[0]),
-                                                        wind.vector[0],
-                                                        wind.vector[1],
-                                                        round((-vehicle.position[1] + WORLD_WIDTH_HALF) % WORLD_WIDTH -
-                                                              WORLD_WIDTH_HALF),
-                                                        *lidar_samples))
-                pilot.stdin.flush()
-                loop_count += 1
-                cmd = pilot.stdout.read(COMMAND_STRUCT.size)
-                if len(cmd) != COMMAND_STRUCT.size:
-                    result = CRASHED  # The pilot process must have exited
-                    break
-                lateral_airspeed_input, drop_package_commanded_byte, _ = COMMAND_STRUCT.unpack(cmd)
-                lateral_airspeed = max(-30.0, min(30.0, lateral_airspeed_input))
-                drop_package_commanded = bool(drop_package_commanded_byte)
-            if DEBUG:
-                structure1 = TELEMETRY_STRUCT.pack(int(loop_count * DT_SEC * 1e3) & 0xFFFF,
-                                                        round(RECOVERY_X - vehicle.position[0]),
-                                                        wind.vector[0],
-                                                        wind.vector[1],
-                                                        round((-vehicle.position[1] + WORLD_WIDTH_HALF) % WORLD_WIDTH -
-                                                              WORLD_WIDTH_HALF),
-                                                        *lidar_samples)
-
-                print("telem struct to send: \n")
-                print(structure1)
-                print(struct.unpack(">Hhffb31B", structure1))
-                timestamp, recovery_x_error, wind_x, wind_y, recovery_y_error, lidar_samples = pm.parse_telem(structure1)
-
-                print("lidar samples: ", lidar_samples)
-                print("wind x: ", wind_x, " wind y: ", wind_y)
-                # this is the lateral and forward velocity that I am controlling
-                a_vel = pm.current_velocity(wind_x, wind_y, my_velocity)
-                a_vel_polar = pm.convert_to_polar(a_vel[0], a_vel[1])
-                print("my_velocity: ", my_velocity)
-                print("actual velocity: ", a_vel, " polar: ", a_vel_polar)
-                droplist, treelist = checklidar(lidar_samples, prior_trees)
-                print("droplist: ", droplist)
-                print("treelist: ", treelist)
-                prior_trees = treelist
-
-                if(treelist):
-                    desired_y = avoid_tree(wind_x, wind_y,treelist, my_velocity)
-                    my_velocity[1] = desired_y
-
-                if droplist:
-                    drop_pt = min(droplist)
-                    print("drop point: ", drop_pt)
-                    # the returned drop point will be drop point without a tree in the way
-                    # if the coast is clear to go to this point:
-                    #desired_y = target_velocity(wind_vector_x, wind_vector_y, drop_x, drop_y)
-                    # decide whether the drop point is close enough to command a drop
-                    #dropnow(wind_vector_x, wind_vector_y, drop_x, drop_y, timestamp)
-                # desired_y = go_where(timestamp, recovery_x_error, wind_vector_x, wind_vector_y, recovery_y_error, lidar_samples)
-                # print("desired y: ", desired_y)
-                # recovery_dist = distance(recovery_x_error, recovery_y_error)
-                # sendpkt(timestamp, desired_y)
-                print("\n\n")
-                print("command struct received: \n")
-                print(COMMAND_STRUCT.unpack(cmd))
-                print("")
-                if(drop_package_commanded_byte == 1):
-                    print("DROPPING PACKAGE NOW!!!!")
-
+            lidar_samples = cast_lidar(vehicle.position, lidar_objects)
+            pilot.stdin.write(TELEMETRY_STRUCT.pack(int(loop_count * DT_SEC * 1e3) & 0xFFFF,
+                                                    round(RECOVERY_X - vehicle.position[0]),
+                                                    wind.vector[0],
+                                                    wind.vector[1],
+                                                    round((-vehicle.position[1] + WORLD_WIDTH_HALF) % WORLD_WIDTH -
+                                                          WORLD_WIDTH_HALF),
+                                                    *lidar_samples))
+            pilot.stdin.flush()
+            loop_count += 1
+            cmd = pilot.stdout.read(COMMAND_STRUCT.size)
+            if len(cmd) != COMMAND_STRUCT.size:
+                result = CRASHED  # The pilot process must have exited
+                break
+            lateral_airspeed_input, drop_package_commanded_byte, _ = COMMAND_STRUCT.unpack(cmd)
+            lateral_airspeed = max(-30.0, min(30.0, lateral_airspeed_input))
+            drop_package_commanded = bool(drop_package_commanded_byte)
         elif not headless:
             keys = pygame.key.get_pressed()
             lateral_airspeed -= lateral_airspeed / 0.5 * DT_SEC
@@ -566,7 +417,6 @@ if __name__ == "__main__":
                 lateral_airspeed = max(-30.0, lateral_airspeed - DT_SEC * 200.0)
             if keys[pygame.K_SPACE]:
                 drop_package_commanded = True
-
 
         vehicle.update(DT_SEC, lateral_airspeed, wind.vector)
 
